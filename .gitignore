@@ -14,3 +14,6 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+data/raw/kaggle/city_hour.csv
+data/raw/kaggle/station_hour.csv
