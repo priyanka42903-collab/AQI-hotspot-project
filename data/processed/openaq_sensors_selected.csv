@@ -1,0 +1,975 @@
+location_id,location_name,city,latitude,longitude,sensor_id,parameter,units,unit_priority
+50,"Punjabi Bagh, Delhi - DPCC",Delhi,28.674045,77.131023,395,pm10,µg/m³,0
+50,"Punjabi Bagh, Delhi - DPCC",Delhi,28.674045,77.131023,396,pm25,µg/m³,0
+6267807,"Srinivas Nagar Colony, Machilipatnam - APPCB",Patna,16.186555,81.13219,15653090,o3,µg/m³,0
+6267807,"Srinivas Nagar Colony, Machilipatnam - APPCB",Patna,16.186555,81.13219,15653091,pm10,µg/m³,0
+6267807,"Srinivas Nagar Colony, Machilipatnam - APPCB",Patna,16.186555,81.13219,15653092,pm25,µg/m³,0
+7850,"Bandra, Mumbai - MPCB",Mumbai,19.0627,72.84614,36455,co,µg/m³,0
+7850,"Bandra, Mumbai - MPCB",Mumbai,19.0627,72.84614,36453,no2,µg/m³,0
+7850,"Bandra, Mumbai - MPCB",Mumbai,19.0627,72.84614,36451,o3,µg/m³,0
+7850,"Bandra, Mumbai - MPCB",Mumbai,19.0627,72.84614,22798,pm10,µg/m³,0
+7850,"Bandra, Mumbai - MPCB",Mumbai,19.0627,72.84614,36447,pm25,µg/m³,0
+7850,"Bandra, Mumbai - MPCB",Mumbai,19.0627,72.84614,36446,so2,µg/m³,0
+8039,Mumbai,Mumbai,19.07283,72.88261,23320,pm25,µg/m³,0
+8092,"East Arjun Nagar, Delhi - CPCB",Delhi,28.655935,77.294904,23669,no2,µg/m³,0
+8092,"East Arjun Nagar, Delhi - CPCB",Delhi,28.655935,77.294904,23465,o3,µg/m³,0
+8092,"East Arjun Nagar, Delhi - CPCB",Delhi,28.655935,77.294904,34750,so2,µg/m³,0
+8118,New Delhi,Delhi,28.63576,77.22445,23534,pm25,µg/m³,0
+6254666,"IGNOU_Maidan Garhi, Delhi - DPCC",Delhi,28.493624,77.201159,15554739,pm10,µg/m³,0
+6254666,"IGNOU_Maidan Garhi, Delhi - DPCC",Delhi,28.493624,77.201159,15554740,pm25,µg/m³,0
+6257818,"Cantonment Area, Delhi - DPCC",Delhi,28.594169,77.1251,15578289,o3,µg/m³,0
+6257818,"Cantonment Area, Delhi - DPCC",Delhi,28.594169,77.1251,15578290,pm10,µg/m³,0
+6257818,"Cantonment Area, Delhi - DPCC",Delhi,28.594169,77.1251,15578291,pm25,µg/m³,0
+13,"Delhi Technological University, Delhi - CPCB",Delhi,28.744,77.12,13866,no2,µg/m³,0
+13,"Delhi Technological University, Delhi - CPCB",Delhi,28.744,77.12,24,o3,µg/m³,0
+13,"Delhi Technological University, Delhi - CPCB",Delhi,28.744,77.12,13864,pm25,µg/m³,0
+17,"R K Puram, Delhi - DPCC",Delhi,28.563262,77.186937,392,co,µg/m³,0
+17,"R K Puram, Delhi - DPCC",Delhi,28.563262,77.186937,36,no2,µg/m³,0
+17,"R K Puram, Delhi - DPCC",Delhi,28.563262,77.186937,394,o3,µg/m³,0
+17,"R K Puram, Delhi - DPCC",Delhi,28.563262,77.186937,399,pm10,µg/m³,0
+17,"R K Puram, Delhi - DPCC",Delhi,28.563262,77.186937,12234787,pm25,µg/m³,0
+6148686,"IIT Delhi, Delhi - IITM",Delhi,28.54246,77.191651,14769474,pm25,µg/m³,0
+6254594,"Talkatora Garden, Delhi - DPCC",Delhi,28.62181,77.1944633,15554206,o3,µg/m³,0
+6254594,"Talkatora Garden, Delhi - DPCC",Delhi,28.62181,77.1944633,15554207,pm10,µg/m³,0
+6254594,"Talkatora Garden, Delhi - DPCC",Delhi,28.62181,77.1944633,15554208,pm25,µg/m³,0
+6254663,"JNU, Delhi - DPCC",Delhi,28.540721,77.168544,15554702,o3,µg/m³,0
+6254663,"JNU, Delhi - DPCC",Delhi,28.540721,77.168544,15554703,pm10,µg/m³,0
+6254663,"JNU, Delhi - DPCC",Delhi,28.540721,77.168544,15554704,pm25,µg/m³,0
+235,"Anand Vihar, New Delhi - DPCC",Delhi,28.646835,77.316032,12235608,o3,µg/m³,0
+235,"Anand Vihar, New Delhi - DPCC",Delhi,28.646835,77.316032,381,pm10,µg/m³,0
+235,"Anand Vihar, New Delhi - DPCC",Delhi,28.646835,77.316032,384,pm25,µg/m³,0
+235,"Anand Vihar, New Delhi - DPCC",Delhi,28.646835,77.316032,383,so2,µg/m³,0
+236,"Mandir Marg, Delhi - DPCC",Delhi,28.6341,77.2005,386,co,µg/m³,0
+236,"Mandir Marg, Delhi - DPCC",Delhi,28.6341,77.2005,389,no2,µg/m³,0
+236,"Mandir Marg, Delhi - DPCC",Delhi,28.6341,77.2005,388,pm25,µg/m³,0
+236,"Mandir Marg, Delhi - DPCC",Delhi,28.6341,77.2005,387,so2,µg/m³,0
+412,"Peenya, Bengaluru - KSPCB",Bengaluru,13.0339,77.51321111,722,co,µg/m³,0
+412,"Peenya, Bengaluru - KSPCB",Bengaluru,13.0339,77.51321111,1518,no2,µg/m³,0
+412,"Peenya, Bengaluru - KSPCB",Bengaluru,13.0339,77.51321111,13852,pm25,µg/m³,0
+412,"Peenya, Bengaluru - KSPCB",Bengaluru,13.0339,77.51321111,13853,so2,µg/m³,0
+431,"IHBAS, Delhi - CPCB",Delhi,28.6821,77.305,5361,co,µg/m³,0
+431,"IHBAS, Delhi - CPCB",Delhi,28.6821,77.305,747,no2,µg/m³,0
+431,"IHBAS, Delhi - CPCB",Delhi,28.6821,77.305,13868,pm25,µg/m³,0
+431,"IHBAS, Delhi - CPCB",Delhi,28.6821,77.305,13867,so2,µg/m³,0
+594,"BTM Layout, Bengaluru - KSPCB",Bengaluru,12.912811110000002,77.60921944,1048,co,µg/m³,0
+594,"BTM Layout, Bengaluru - KSPCB",Bengaluru,12.912811110000002,77.60921944,1427,no2,µg/m³,0
+594,"BTM Layout, Bengaluru - KSPCB",Bengaluru,12.912811110000002,77.60921944,4886,o3,µg/m³,0
+594,"BTM Layout, Bengaluru - KSPCB",Bengaluru,12.912811110000002,77.60921944,13836,pm25,µg/m³,0
+6148686,"IIT Delhi, Delhi - IITM",Delhi,28.54246,77.191651,14769472,o3,µg/m³,0
+6148686,"IIT Delhi, Delhi - IITM",Delhi,28.54246,77.191651,14769473,pm10,µg/m³,0
+3409514,"Ghatkopar, Mumbai - BMC",Mumbai,19.083694,72.920967,12238602,pm10,µg/m³,0
+3409514,"Ghatkopar, Mumbai - BMC",Mumbai,19.083694,72.920967,12238603,pm25,µg/m³,0
+594,"BTM Layout, Bengaluru - KSPCB",Bengaluru,12.912811110000002,77.60921944,13837,so2,µg/m³,0
+716,"Rabindra Bharati University, Kolkata - WBSPCB",Kolkata,22.627875,88.3804,5504,co,µg/m³,0
+716,"Rabindra Bharati University, Kolkata - WBSPCB",Kolkata,22.627875,88.3804,5505,no2,µg/m³,0
+716,"Rabindra Bharati University, Kolkata - WBSPCB",Kolkata,22.627875,88.3804,5502,o3,µg/m³,0
+716,"Rabindra Bharati University, Kolkata - WBSPCB",Kolkata,22.627875,88.3804,5503,pm10,µg/m³,0
+716,"Rabindra Bharati University, Kolkata - WBSPCB",Kolkata,22.627875,88.3804,1242,pm25,µg/m³,0
+716,"Rabindra Bharati University, Kolkata - WBSPCB",Kolkata,22.627875,88.3804,1241,so2,µg/m³,0
+2456,"Talkatora District Industries Center, Lucknow - CPCB",Lucknow,26.83399722,80.8917361,4712,co,µg/m³,0
+2456,"Talkatora District Industries Center, Lucknow - CPCB",Lucknow,26.83399722,80.8917361,5231,no2,µg/m³,0
+2456,"Talkatora District Industries Center, Lucknow - CPCB",Lucknow,26.83399722,80.8917361,12235572,o3,µg/m³,0
+2456,"Talkatora District Industries Center, Lucknow - CPCB",Lucknow,26.83399722,80.8917361,12235573,pm10,µg/m³,0
+236,"Mandir Marg, Delhi - DPCC",Delhi,28.6341,77.2005,390,o3,µg/m³,0
+236,"Mandir Marg, Delhi - DPCC",Delhi,28.6341,77.2005,391,pm10,µg/m³,0
+3409512,"Kandivali West, Mumbai - BMC",Mumbai,19.215859,72.831718,12238585,pm25,µg/m³,0
+2456,"Talkatora District Industries Center, Lucknow - CPCB",Lucknow,26.83399722,80.8917361,12235574,pm25,µg/m³,0
+2456,"Talkatora District Industries Center, Lucknow - CPCB",Lucknow,26.83399722,80.8917361,14238,so2,µg/m³,0
+2460,US Diplomatic Post: Kolkata,Kolkata,22.547142,88.351048,4724,pm25,µg/m³,0
+2461,US Diplomatic Post: Chennai,Chennai,13.052371,80.251932,4725,pm25,µg/m³,0
+2503,"Shadipur, Delhi - CPCB",Delhi,28.651699999999998,77.1581,4851,co,µg/m³,0
+2503,"Shadipur, Delhi - CPCB",Delhi,28.651699999999998,77.1581,4852,no2,µg/m³,0
+2503,"Shadipur, Delhi - CPCB",Delhi,28.651699999999998,77.1581,4853,o3,µg/m³,0
+2503,"Shadipur, Delhi - CPCB",Delhi,28.651699999999998,77.1581,13860,pm25,µg/m³,0
+2503,"Shadipur, Delhi - CPCB",Delhi,28.651699999999998,77.1581,13859,so2,µg/m³,0
+3409513,"Sewri, Mumbai - BMC",Mumbai,19.000084,72.85673,12238592,o3,µg/m³,0
+3409513,"Sewri, Mumbai - BMC",Mumbai,19.000084,72.85673,12238593,pm10,µg/m³,0
+3409513,"Sewri, Mumbai - BMC",Mumbai,19.000084,72.85673,12238594,pm25,µg/m³,0
+3409514,"Ghatkopar, Mumbai - BMC",Mumbai,19.083694,72.920967,12238601,o3,µg/m³,0
+3409510,"Byculla, Mumbai - BMC",Mumbai,18.9767,72.838,12238566,pm10,µg/m³,0
+3409510,"Byculla, Mumbai - BMC",Mumbai,18.9767,72.838,12238567,pm25,µg/m³,0
+3409511,"Shivaji Nagar, Mumbai - BMC",Mumbai,19.060498,72.923356,12238574,o3,µg/m³,0
+3409511,"Shivaji Nagar, Mumbai - BMC",Mumbai,19.060498,72.923356,12238575,pm10,µg/m³,0
+3409511,"Shivaji Nagar, Mumbai - BMC",Mumbai,19.060498,72.923356,12238576,pm25,µg/m³,0
+2586,"Manali, Chennai - CPCB",Chennai,13.164544,80.26285,5339,co,µg/m³,0
+2586,"Manali, Chennai - CPCB",Chennai,13.164544,80.26285,5340,no2,µg/m³,0
+2586,"Manali, Chennai - CPCB",Chennai,13.164544,80.26285,1305375,o3,µg/m³,0
+2586,"Manali, Chennai - CPCB",Chennai,13.164544,80.26285,12235652,pm10,µg/m³,0
+2586,"Manali, Chennai - CPCB",Chennai,13.164544,80.26285,12235653,pm25,µg/m³,0
+2586,"Manali, Chennai - CPCB",Chennai,13.164544,80.26285,14311,so2,µg/m³,0
+3409512,"Kandivali West, Mumbai - BMC",Mumbai,19.215859,72.831718,12238583,o3,µg/m³,0
+3409512,"Kandivali West, Mumbai - BMC",Mumbai,19.215859,72.831718,12238584,pm10,µg/m³,0
+2592,"BWSSB Kadabesanahalli, Bengaluru - KSPCB",Bengaluru,12.93890556,77.69727222,5381,co,µg/m³,0
+2592,"BWSSB Kadabesanahalli, Bengaluru - KSPCB",Bengaluru,12.93890556,77.69727222,5380,no2,µg/m³,0
+2592,"BWSSB Kadabesanahalli, Bengaluru - KSPCB",Bengaluru,12.93890556,77.69727222,5375,o3,µg/m³,0
+2592,"BWSSB Kadabesanahalli, Bengaluru - KSPCB",Bengaluru,12.93890556,77.69727222,13898,pm25,µg/m³,0
+2592,"BWSSB Kadabesanahalli, Bengaluru - KSPCB",Bengaluru,12.93890556,77.69727222,13888,so2,µg/m³,0
+2593,IGSC Planetarium Complex - Patna - BSPCB,Patna,25.3636,85.0755,5383,co,µg/m³,0
+2593,IGSC Planetarium Complex - Patna - BSPCB,Patna,25.3636,85.0755,5386,no2,µg/m³,0
+2593,IGSC Planetarium Complex - Patna - BSPCB,Patna,25.3636,85.0755,5384,o3,µg/m³,0
+2593,IGSC Planetarium Complex - Patna - BSPCB,Patna,25.3636,85.0755,5385,pm25,µg/m³,0
+2593,IGSC Planetarium Complex - Patna - BSPCB,Patna,25.3636,85.0755,14315,so2,µg/m³,0
+2597,US Diplomatic Post: New Delhi,Delhi,28.598096,77.189066,5398,pm25,µg/m³,0
+2598,Navi Mumbai Municipal Corporation Airoli,Mumbai,19.1494,72.9986,5400,co,µg/m³,0
+2598,Navi Mumbai Municipal Corporation Airoli,Mumbai,19.1494,72.9986,5408,pm10,µg/m³,0
+2598,Navi Mumbai Municipal Corporation Airoli,Mumbai,19.1494,72.9986,5404,pm25,µg/m³,0
+3409496,"New Moti Bagh, Delhi - MHUA",Delhi,28.57834,77.184,15646335,pm25,µg/m³,0
+3409510,"Byculla, Mumbai - BMC",Mumbai,18.9767,72.838,12238565,o3,µg/m³,0
+3409486,"Kherwadi_Bandra East, Mumbai - MPCB",Mumbai,19.0632143,72.8456324,12238411,pm25,µg/m³,0
+3409487,"Sanpada, Navi Mumbai - MPCB",Mumbai,19.0575752,73.0151367,12243947,o3,µg/m³,0
+3409487,"Sanpada, Navi Mumbai - MPCB",Mumbai,19.0575752,73.0151367,12243948,pm10,µg/m³,0
+3409487,"Sanpada, Navi Mumbai - MPCB",Mumbai,19.0575752,73.0151367,12243949,pm25,µg/m³,0
+2598,Navi Mumbai Municipal Corporation Airoli,Mumbai,19.1494,72.9986,13523,so2,µg/m³,0
+5404,"Pusa, Delhi - IMD",Delhi,28.639645,77.146263,14086,co,µg/m³,0
+5404,"Pusa, Delhi - IMD",Delhi,28.639645,77.146263,14084,no2,µg/m³,0
+5404,"Pusa, Delhi - IMD",Delhi,28.639645,77.146263,12234700,o3,µg/m³,0
+5404,"Pusa, Delhi - IMD",Delhi,28.639645,77.146263,14085,pm10,µg/m³,0
+5404,"Pusa, Delhi - IMD",Delhi,28.639645,77.146263,14087,pm25,µg/m³,0
+5509,"Anand Vihar, Delhi - DPCC",Delhi,28.647622000000002,77.315809,14519,co,µg/m³,0
+5509,"Anand Vihar, Delhi - DPCC",Delhi,28.647622000000002,77.315809,14523,no2,µg/m³,0
+5509,"Anand Vihar, Delhi - DPCC",Delhi,28.647622000000002,77.315809,14524,o3,µg/m³,0
+5509,"Anand Vihar, Delhi - DPCC",Delhi,28.647622000000002,77.315809,14522,pm10,µg/m³,0
+5509,"Anand Vihar, Delhi - DPCC",Delhi,28.647622000000002,77.315809,14520,so2,µg/m³,0
+5540,"Punjabi Bagh, Delhi - DPCC",Delhi,28.6670856,77.1301247,14616,co,µg/m³,0
+5540,"Punjabi Bagh, Delhi - DPCC",Delhi,28.6670856,77.1301247,14613,no2,µg/m³,0
+5540,"Punjabi Bagh, Delhi - DPCC",Delhi,28.6670856,77.1301247,14614,o3,µg/m³,0
+5540,"Punjabi Bagh, Delhi - DPCC",Delhi,28.6670856,77.1301247,14612,pm10,µg/m³,0
+5540,"Punjabi Bagh, Delhi - DPCC",Delhi,28.6670856,77.1301247,14617,pm25,µg/m³,0
+5540,"Punjabi Bagh, Delhi - DPCC",Delhi,28.6670856,77.1301247,14615,so2,µg/m³,0
+5541,"Burari Crossing, New Delhi - IMD",Delhi,28.7256504,77.2011573,14958,co,µg/m³,0
+5541,"Burari Crossing, New Delhi - IMD",Delhi,28.7256504,77.2011573,14936,no2,µg/m³,0
+5541,"Burari Crossing, New Delhi - IMD",Delhi,28.7256504,77.2011573,14931,o3,µg/m³,0
+3409483,"Chembur, Mumbai - MPCB",Mumbai,19.0364585,72.8954371,12238382,o3,µg/m³,0
+3409483,"Chembur, Mumbai - MPCB",Mumbai,19.0364585,72.8954371,12238383,pm10,µg/m³,0
+3409483,"Chembur, Mumbai - MPCB",Mumbai,19.0364585,72.8954371,12238384,pm25,µg/m³,0
+3409486,"Kherwadi_Bandra East, Mumbai - MPCB",Mumbai,19.0632143,72.8456324,12238409,o3,µg/m³,0
+3409486,"Kherwadi_Bandra East, Mumbai - MPCB",Mumbai,19.0632143,72.8456324,12238410,pm10,µg/m³,0
+3409482,"Bandra Kurla Complex, Mumbai - MPCB",Mumbai,19.065931,72.862131,12238373,o3,µg/m³,0
+3409482,"Bandra Kurla Complex, Mumbai - MPCB",Mumbai,19.065931,72.862131,12238374,pm10,µg/m³,0
+3409482,"Bandra Kurla Complex, Mumbai - MPCB",Mumbai,19.065931,72.862131,12238375,pm25,µg/m³,0
+5541,"Burari Crossing, New Delhi - IMD",Delhi,28.7256504,77.2011573,14620,pm10,µg/m³,0
+5541,"Burari Crossing, New Delhi - IMD",Delhi,28.7256504,77.2011573,14912,pm25,µg/m³,0
+5547,"BWSSB Kadabesanahalli, Bengaluru - CPCB",Bengaluru,12.9352049,77.6814488,14637,co,µg/m³,0
+5547,"BWSSB Kadabesanahalli, Bengaluru - CPCB",Bengaluru,12.9352049,77.6814488,14636,no2,µg/m³,0
+5547,"BWSSB Kadabesanahalli, Bengaluru - CPCB",Bengaluru,12.9352049,77.6814488,14640,o3,µg/m³,0
+5547,"BWSSB Kadabesanahalli, Bengaluru - CPCB",Bengaluru,12.9352049,77.6814488,1303004,pm10,µg/m³,0
+5547,"BWSSB Kadabesanahalli, Bengaluru - CPCB",Bengaluru,12.9352049,77.6814488,14641,pm25,µg/m³,0
+5547,"BWSSB Kadabesanahalli, Bengaluru - CPCB",Bengaluru,12.9352049,77.6814488,14634,so2,µg/m³,0
+5548,"BTM Layout, Bengaluru - CPCB",Bengaluru,12.9135218,77.5950804,14657,co,µg/m³,0
+5548,"BTM Layout, Bengaluru - CPCB",Bengaluru,12.9135218,77.5950804,14639,no2,µg/m³,0
+5509,"Anand Vihar, Delhi - DPCC",Delhi,28.647622000000002,77.315809,14521,pm25,µg/m³,0
+3409477,"Kopripada-Vashi, Navi Mumbai - MPCB",Mumbai,19.090337,73.014232,12238329,pm10,µg/m³,0
+3409477,"Kopripada-Vashi, Navi Mumbai - MPCB",Mumbai,19.090337,73.014232,12238330,pm25,µg/m³,0
+3409479,"Mindspace-Malad West, Mumbai - MPCB",Mumbai,19.1878657,72.8304069,12238346,o3,µg/m³,0
+3409479,"Mindspace-Malad West, Mumbai - MPCB",Mumbai,19.1878657,72.8304069,12238347,pm10,µg/m³,0
+3409479,"Mindspace-Malad West, Mumbai - MPCB",Mumbai,19.1878657,72.8304069,12238348,pm25,µg/m³,0
+5548,"BTM Layout, Bengaluru - CPCB",Bengaluru,12.9135218,77.5950804,12235359,o3,µg/m³,0
+5548,"BTM Layout, Bengaluru - CPCB",Bengaluru,12.9135218,77.5950804,1305377,pm10,µg/m³,0
+5548,"BTM Layout, Bengaluru - CPCB",Bengaluru,12.9135218,77.5950804,14635,pm25,µg/m³,0
+5548,"BTM Layout, Bengaluru - CPCB",Bengaluru,12.9135218,77.5950804,14642,so2,µg/m³,0
+5558,"Alandur Bus Depot, Chennai - CPCB",Chennai,12.909916100000002,80.1076538,14690,co,µg/m³,0
+5558,"Alandur Bus Depot, Chennai - CPCB",Chennai,12.909916100000002,80.1076538,14681,no2,µg/m³,0
+5558,"Alandur Bus Depot, Chennai - CPCB",Chennai,12.909916100000002,80.1076538,14689,o3,µg/m³,0
+5558,"Alandur Bus Depot, Chennai - CPCB",Chennai,12.909916100000002,80.1076538,1305373,pm10,µg/m³,0
+3409471,"Sector-2E Kalamboli, Navi Mumbai - MPCB",Mumbai,19.02579,73.10297,12238276,pm25,µg/m³,0
+5558,"Alandur Bus Depot, Chennai - CPCB",Chennai,12.909916100000002,80.1076538,14680,pm25,µg/m³,0
+5558,"Alandur Bus Depot, Chennai - CPCB",Chennai,12.909916100000002,80.1076538,14682,so2,µg/m³,0
+5570,"Aya Nagar, New Delhi - IMD",Delhi,28.474261,77.131606,15010,co,µg/m³,0
+5570,"Aya Nagar, New Delhi - IMD",Delhi,28.474261,77.131606,15019,no2,µg/m³,0
+5570,"Aya Nagar, New Delhi - IMD",Delhi,28.474261,77.131606,15021,o3,µg/m³,0
+5570,"Aya Nagar, New Delhi - IMD",Delhi,28.474261,77.131606,12234707,pm10,µg/m³,0
+5570,"Aya Nagar, New Delhi - IMD",Delhi,28.474261,77.131606,12234708,pm25,µg/m³,0
+5574,"City Railway Station, Bengaluru - KSPCB",Bengaluru,12.9756843,77.5660749,14779,co,µg/m³,0
+3409475,"Tondare-Taloja, Navi Mumbai - MPCB",Mumbai,19.063,73.1209,12238310,o3,µg/m³,0
+3409475,"Tondare-Taloja, Navi Mumbai - MPCB",Mumbai,19.063,73.1209,12238311,pm10,µg/m³,0
+3409475,"Tondare-Taloja, Navi Mumbai - MPCB",Mumbai,19.063,73.1209,12238312,pm25,µg/m³,0
+3409477,"Kopripada-Vashi, Navi Mumbai - MPCB",Mumbai,19.090337,73.014232,12238328,o3,µg/m³,0
+3409393,"Shivapura_Peenya, Bengaluru - KSPCB",Bengaluru,13.0246342,77.5080115,12237644,pm10,µg/m³,0
+3409393,"Shivapura_Peenya, Bengaluru - KSPCB",Bengaluru,13.0246342,77.5080115,12237645,pm25,µg/m³,0
+3409434,"Jigani, Bengaluru - KSPCB",Bengaluru,12.7816279,77.6299145,12243006,o3,µg/m³,0
+3409434,"Jigani, Bengaluru - KSPCB",Bengaluru,12.7816279,77.6299145,12243007,pm10,µg/m³,0
+3409434,"Jigani, Bengaluru - KSPCB",Bengaluru,12.7816279,77.6299145,12243008,pm25,µg/m³,0
+5574,"City Railway Station, Bengaluru - KSPCB",Bengaluru,12.9756843,77.5660749,14773,no2,µg/m³,0
+5574,"City Railway Station, Bengaluru - KSPCB",Bengaluru,12.9756843,77.5660749,14775,pm10,µg/m³,0
+5574,"City Railway Station, Bengaluru - KSPCB",Bengaluru,12.9756843,77.5660749,14732,so2,µg/m³,0
+5581,"Pusa, New Delhi - IMD",Delhi,28.610304,77.0996943,15266,co,µg/m³,0
+5581,"Pusa, New Delhi - IMD",Delhi,28.610304,77.0996943,14800,no2,µg/m³,0
+5581,"Pusa, New Delhi - IMD",Delhi,28.610304,77.0996943,14752,o3,µg/m³,0
+5581,"Pusa, New Delhi - IMD",Delhi,28.610304,77.0996943,14851,pm10,µg/m³,0
+5581,"Pusa, New Delhi - IMD",Delhi,28.610304,77.0996943,14853,pm25,µg/m³,0
+3409471,"Sector-2E Kalamboli, Navi Mumbai - MPCB",Mumbai,19.02579,73.10297,12238274,o3,µg/m³,0
+3409471,"Sector-2E Kalamboli, Navi Mumbai - MPCB",Mumbai,19.02579,73.10297,12238275,pm10,µg/m³,0
+3409385,"RVCE-Mailasandra, Bengaluru - KSPCB",Bengaluru,12.921418,77.502466,12237571,o3,µg/m³,0
+3409385,"RVCE-Mailasandra, Bengaluru - KSPCB",Bengaluru,12.921418,77.502466,12237572,pm10,µg/m³,0
+3409385,"RVCE-Mailasandra, Bengaluru - KSPCB",Bengaluru,12.921418,77.502466,12237573,pm25,µg/m³,0
+5586,"Sirifort, Delhi - CPCB",Delhi,28.5504249,77.2159377,12234767,o3,µg/m³,0
+5586,"Sirifort, Delhi - CPCB",Delhi,28.5504249,77.2159377,12234768,pm10,µg/m³,0
+5586,"Sirifort, Delhi - CPCB",Delhi,28.5504249,77.2159377,12234769,pm25,µg/m³,0
+5604,"Nishant Ganj, Lucknow - UPPCB",Lucknow,26.871428,80.957145,14896,co,µg/m³,0
+5604,"Nishant Ganj, Lucknow - UPPCB",Lucknow,26.871428,80.957145,15139,no2,µg/m³,0
+5604,"Nishant Ganj, Lucknow - UPPCB",Lucknow,26.871428,80.957145,15078,o3,µg/m³,0
+5604,"Nishant Ganj, Lucknow - UPPCB",Lucknow,26.871428,80.957145,14845,pm25,µg/m³,0
+5604,"Nishant Ganj, Lucknow - UPPCB",Lucknow,26.871428,80.957145,14880,so2,µg/m³,0
+5607,"Peenya, Bengaluru - CPCB",Bengaluru,13.0270199,77.494094,15270,co,µg/m³,0
+3409388,"Kasturi Nagar, Bengaluru - KSPCB",Bengaluru,13.003872,77.664217,12237598,o3,µg/m³,0
+3409388,"Kasturi Nagar, Bengaluru - KSPCB",Bengaluru,13.003872,77.664217,12237599,pm10,µg/m³,0
+3409388,"Kasturi Nagar, Bengaluru - KSPCB",Bengaluru,13.003872,77.664217,12237600,pm25,µg/m³,0
+3409393,"Shivapura_Peenya, Bengaluru - KSPCB",Bengaluru,13.0246342,77.5080115,12237643,o3,µg/m³,0
+3409323,"Worli, Mumbai - MPCB",Mumbai,18.9936162,72.8128113,12235914,pm25,µg/m³,0
+3409328,"Bandra Kurla Complex, Mumbai - IITM",Mumbai,19.0627,72.84614,12708244,o3,µg/m³,0
+3409328,"Bandra Kurla Complex, Mumbai - IITM",Mumbai,19.0627,72.84614,12708245,pm10,µg/m³,0
+3409328,"Bandra Kurla Complex, Mumbai - IITM",Mumbai,19.0627,72.84614,12708246,pm25,µg/m³,0
+3409329,"Deonar, Mumbai - IITM",Mumbai,19.04946,72.923,12236383,o3,µg/m³,0
+3409329,"Deonar, Mumbai - IITM",Mumbai,19.04946,72.923,12236384,pm10,µg/m³,0
+3409329,"Deonar, Mumbai - IITM",Mumbai,19.04946,72.923,12236385,pm25,µg/m³,0
+3409330,"Sector-19A Nerul, Navi Mumbai - IITM",Mumbai,19.044,73.0325,14230327,pm10,µg/m³,0
+5607,"Peenya, Bengaluru - CPCB",Bengaluru,13.0270199,77.494094,14850,no2,µg/m³,0
+5607,"Peenya, Bengaluru - CPCB",Bengaluru,13.0270199,77.494094,40537,o3,µg/m³,0
+5607,"Peenya, Bengaluru - CPCB",Bengaluru,13.0270199,77.494094,1303005,pm10,µg/m³,0
+5607,"Peenya, Bengaluru - CPCB",Bengaluru,13.0270199,77.494094,12235370,pm25,µg/m³,0
+5607,"Peenya, Bengaluru - CPCB",Bengaluru,13.0270199,77.494094,14862,so2,µg/m³,0
+3409319,"Alandur Bus Depot, Chennai - CPCB",Chennai,12.9099161,80.1076538,12235548,pm10,µg/m³,0
+3409319,"Alandur Bus Depot, Chennai - CPCB",Chennai,12.9099161,80.1076538,12235549,pm25,µg/m³,0
+3409320,"Rabindra Bharati University, Kolkata - WBPCB",Kolkata,22.627875,88.3804,12235563,o3,µg/m³,0
+3409320,"Rabindra Bharati University, Kolkata - WBPCB",Kolkata,22.627875,88.3804,12235564,pm10,µg/m³,0
+3409320,"Rabindra Bharati University, Kolkata - WBPCB",Kolkata,22.627875,88.3804,12235565,pm25,µg/m³,0
+5610,"North Campus, DU, Delhi - IMD",Delhi,28.6573814,77.1585447,14909,co,µg/m³,0
+5610,"North Campus, DU, Delhi - IMD",Delhi,28.6573814,77.1585447,14902,no2,µg/m³,0
+5610,"North Campus, DU, Delhi - IMD",Delhi,28.6573814,77.1585447,14889,o3,µg/m³,0
+5610,"North Campus, DU, Delhi - IMD",Delhi,28.6573814,77.1585447,14886,pm10,µg/m³,0
+5610,"North Campus, DU, Delhi - IMD",Delhi,28.6573814,77.1585447,12234690,pm25,µg/m³,0
+5613,"ITO, New Delhi - CPCB",Delhi,28.628624,77.24106,17782,co,µg/m³,0
+3409323,"Worli, Mumbai - MPCB",Mumbai,18.9936162,72.8128113,12235912,o3,µg/m³,0
+3409323,"Worli, Mumbai - MPCB",Mumbai,18.9936162,72.8128113,12235913,pm10,µg/m³,0
+3409312,"BWSSB Kadabesanahalli, Bengaluru - CPCB",Bengaluru,12.9352049,77.6814488,14411592,pm10,µg/m³,0
+3409312,"BWSSB Kadabesanahalli, Bengaluru - CPCB",Bengaluru,12.9352049,77.6814488,14406995,pm25,µg/m³,0
+3409318,"Central School, Lucknow - CPCB",Lucknow,26.8821003,80.9302753,12235476,o3,µg/m³,0
+3409318,"Central School, Lucknow - CPCB",Lucknow,26.8821003,80.9302753,12235477,pm10,µg/m³,0
+3409318,"Central School, Lucknow - CPCB",Lucknow,26.8821003,80.9302753,12235478,pm25,µg/m³,0
+5613,"ITO, New Delhi - CPCB",Delhi,28.628624,77.24106,14866,no2,µg/m³,0
+5613,"ITO, New Delhi - CPCB",Delhi,28.628624,77.24106,12234751,o3,µg/m³,0
+5613,"ITO, New Delhi - CPCB",Delhi,28.628624,77.24106,12234752,pm10,µg/m³,0
+5613,"ITO, New Delhi - CPCB",Delhi,28.628624,77.24106,14878,pm25,µg/m³,0
+5613,"ITO, New Delhi - CPCB",Delhi,28.628624,77.24106,17781,so2,µg/m³,0
+5622,"NSIT Dwarka, Delhi - CPCB",Delhi,28.60909,77.0325413,14916,co,µg/m³,0
+5622,"NSIT Dwarka, Delhi - CPCB",Delhi,28.60909,77.0325413,14919,no2,µg/m³,0
+3409319,"Alandur Bus Depot, Chennai - CPCB",Chennai,12.9099161,80.1076538,12235547,o3,µg/m³,0
+229404,"Kukrail Picnic Spot-1, Lucknow - UPPCB",Lucknow,26.90723,80.98579000000001,1321499,o3,µg/m³,0
+229404,"Kukrail Picnic Spot-1, Lucknow - UPPCB",Lucknow,26.90723,80.98579000000001,12236629,pm10,µg/m³,0
+229404,"Kukrail Picnic Spot-1, Lucknow - UPPCB",Lucknow,26.90723,80.98579000000001,1321498,pm25,µg/m³,0
+5622,"NSIT Dwarka, Delhi - CPCB",Delhi,28.60909,77.0325413,12234742,o3,µg/m³,0
+5622,"NSIT Dwarka, Delhi - CPCB",Delhi,28.60909,77.0325413,34957,pm10,µg/m³,0
+5622,"NSIT Dwarka, Delhi - CPCB",Delhi,28.60909,77.0325413,14922,pm25,µg/m³,0
+5622,"NSIT Dwarka, Delhi - CPCB",Delhi,28.60909,77.0325413,14923,so2,µg/m³,0
+5626,"DTU, New Delhi - CPCB",Delhi,28.7500499,77.1112615,14933,co,µg/m³,0
+229404,"Kukrail Picnic Spot-1, Lucknow - UPPCB",Lucknow,26.90723,80.98579000000001,1321495,so2,µg/m³,0
+3409312,"BWSSB Kadabesanahalli, Bengaluru - CPCB",Bengaluru,12.9352049,77.6814488,14406994,o3,µg/m³,0
+227386,"B R Ambedkar University, Lucknow - UPPCB",Lucknow,26.766433000000003,80.927299,12236619,o3,µg/m³,0
+227386,"B R Ambedkar University, Lucknow - UPPCB",Lucknow,26.766433000000003,80.927299,12236620,pm10,µg/m³,0
+227386,"B R Ambedkar University, Lucknow - UPPCB",Lucknow,26.766433000000003,80.927299,12236621,pm25,µg/m³,0
+227386,"B R Ambedkar University, Lucknow - UPPCB",Lucknow,26.766433000000003,80.927299,1311828,so2,µg/m³,0
+5626,"DTU, New Delhi - CPCB",Delhi,28.7500499,77.1112615,14941,no2,µg/m³,0
+5626,"DTU, New Delhi - CPCB",Delhi,28.7500499,77.1112615,14949,o3,µg/m³,0
+5626,"DTU, New Delhi - CPCB",Delhi,28.7500499,77.1112615,14974,pm10,µg/m³,0
+5626,"DTU, New Delhi - CPCB",Delhi,28.7500499,77.1112615,14985,pm25,µg/m³,0
+5626,"DTU, New Delhi - CPCB",Delhi,28.7500499,77.1112615,17766,so2,µg/m³,0
+229404,"Kukrail Picnic Spot-1, Lucknow - UPPCB",Lucknow,26.90723,80.98579000000001,1321500,co,µg/m³,0
+229404,"Kukrail Picnic Spot-1, Lucknow - UPPCB",Lucknow,26.90723,80.98579000000001,1321497,no2,µg/m³,0
+60661,"Siddharth Nagar-Worli, Mumbai - IITM",Mumbai,19.000083,72.813993,389777,o3,µg/m³,0
+60661,"Siddharth Nagar-Worli, Mumbai - IITM",Mumbai,19.000083,72.813993,389771,pm10,µg/m³,0
+5627,"CRRI Mathura Road, New Delhi - IMD",Delhi,28.5512005,77.2735737,15098,co,µg/m³,0
+5627,"CRRI Mathura Road, New Delhi - IMD",Delhi,28.5512005,77.2735737,15082,no2,µg/m³,0
+5627,"CRRI Mathura Road, New Delhi - IMD",Delhi,28.5512005,77.2735737,15063,o3,µg/m³,0
+5627,"CRRI Mathura Road, New Delhi - IMD",Delhi,28.5512005,77.2735737,12234677,pm10,µg/m³,0
+5627,"CRRI Mathura Road, New Delhi - IMD",Delhi,28.5512005,77.2735737,12234678,pm25,µg/m³,0
+5628,"GVM Corporation, Visakhapatnam - APPCB",Patna,17.722682,83.308197,14969,co,µg/m³,0
+5628,"GVM Corporation, Visakhapatnam - APPCB",Patna,17.722682,83.308197,14957,no2,µg/m³,0
+60661,"Siddharth Nagar-Worli, Mumbai - IITM",Mumbai,19.000083,72.813993,389761,pm25,µg/m³,0
+227386,"B R Ambedkar University, Lucknow - UPPCB",Lucknow,26.766433000000003,80.927299,1311821,co,µg/m³,0
+227386,"B R Ambedkar University, Lucknow - UPPCB",Lucknow,26.766433000000003,80.927299,1311816,no2,µg/m³,0
+12044,"Kandivali East, Mumbai - MPCB",Mumbai,19.2058,72.8682,12236472,pm25,µg/m³,0
+12044,"Kandivali East, Mumbai - MPCB",Mumbai,19.2058,72.8682,40620,so2,µg/m³,0
+5628,"GVM Corporation, Visakhapatnam - APPCB",Patna,17.722682,83.308197,14950,o3,µg/m³,0
+5628,"GVM Corporation, Visakhapatnam - APPCB",Patna,17.722682,83.308197,12235459,pm10,µg/m³,0
+5628,"GVM Corporation, Visakhapatnam - APPCB",Patna,17.722682,83.308197,12235460,pm25,µg/m³,0
+5628,"GVM Corporation, Visakhapatnam - APPCB",Patna,17.722682,83.308197,14939,so2,µg/m³,0
+5630,"Shadipur, Delhi - CPCB",Delhi,28.6514781,77.1473105,15119,co,µg/m³,0
+12046,"Perungudi, Chennai - TNPCB",Chennai,12.9533,80.2357,12236288,o3,µg/m³,0
+12046,"Perungudi, Chennai - TNPCB",Chennai,12.9533,80.2357,12236289,pm10,µg/m³,0
+12046,"Perungudi, Chennai - TNPCB",Chennai,12.9533,80.2357,12236290,pm25,µg/m³,0
+60661,"Siddharth Nagar-Worli, Mumbai - IITM",Mumbai,19.000083,72.813993,389760,co,µg/m³,0
+60661,"Siddharth Nagar-Worli, Mumbai - IITM",Mumbai,19.000083,72.813993,389767,no2,µg/m³,0
+12040,"Mulund West, Mumbai - MPCB",Mumbai,19.175,72.9419,40640,so2,µg/m³,0
+12044,"Kandivali East, Mumbai - MPCB",Mumbai,19.2058,72.8682,40616,co,µg/m³,0
+5630,"Shadipur, Delhi - CPCB",Delhi,28.6514781,77.1473105,15053,no2,µg/m³,0
+5630,"Shadipur, Delhi - CPCB",Delhi,28.6514781,77.1473105,15011,o3,µg/m³,0
+5630,"Shadipur, Delhi - CPCB",Delhi,28.6514781,77.1473105,12234725,pm10,µg/m³,0
+5630,"Shadipur, Delhi - CPCB",Delhi,28.6514781,77.1473105,14959,pm25,µg/m³,0
+5630,"Shadipur, Delhi - CPCB",Delhi,28.6514781,77.1473105,14952,so2,µg/m³,0
+5634,"Lodhi Road, New Delhi - IMD",Delhi,28.5918245,77.2273074,14978,co,µg/m³,0
+12044,"Kandivali East, Mumbai - MPCB",Mumbai,19.2058,72.8682,40624,no2,µg/m³,0
+12044,"Kandivali East, Mumbai - MPCB",Mumbai,19.2058,72.8682,40627,o3,µg/m³,0
+12044,"Kandivali East, Mumbai - MPCB",Mumbai,19.2058,72.8682,40652,pm10,µg/m³,0
+5634,"Lodhi Road, New Delhi - IMD",Delhi,28.5918245,77.2273074,14981,o3,µg/m³,0
+5634,"Lodhi Road, New Delhi - IMD",Delhi,28.5918245,77.2273074,12234713,pm10,µg/m³,0
+5634,"Lodhi Road, New Delhi - IMD",Delhi,28.5918245,77.2273074,12234714,pm25,µg/m³,0
+5639,"R K Puram, New Delhi - DPCC",Delhi,28.5646102,77.1670103,15008,co,µg/m³,0
+5639,"R K Puram, New Delhi - DPCC",Delhi,28.5646102,77.1670103,15030,no2,µg/m³,0
+5639,"R K Puram, New Delhi - DPCC",Delhi,28.5646102,77.1670103,15042,o3,µg/m³,0
+5639,"R K Puram, New Delhi - DPCC",Delhi,28.5646102,77.1670103,15059,pm10,µg/m³,0
+5639,"R K Puram, New Delhi - DPCC",Delhi,28.5646102,77.1670103,15071,pm25,µg/m³,0
+12040,"Mulund West, Mumbai - MPCB",Mumbai,19.175,72.9419,40644,o3,µg/m³,0
+12040,"Mulund West, Mumbai - MPCB",Mumbai,19.175,72.9419,40628,pm10,µg/m³,0
+12040,"Mulund West, Mumbai - MPCB",Mumbai,19.175,72.9419,12236481,pm25,µg/m³,0
+12039,"Khindipada-Bhandup West, Mumbai - IITM",Mumbai,19.164394,72.928297,40617,so2,µg/m³,0
+12040,"Mulund West, Mumbai - MPCB",Mumbai,19.175,72.9419,40609,co,µg/m³,0
+12040,"Mulund West, Mumbai - MPCB",Mumbai,19.175,72.9419,40612,no2,µg/m³,0
+5639,"R K Puram, New Delhi - DPCC",Delhi,28.5646102,77.1670103,15092,so2,µg/m³,0
+5641,"Mandir Marg, New Delhi - DPCC",Delhi,28.6372688,77.2005604,15028,co,µg/m³,0
+5641,"Mandir Marg, New Delhi - DPCC",Delhi,28.6372688,77.2005604,15025,no2,µg/m³,0
+5641,"Mandir Marg, New Delhi - DPCC",Delhi,28.6372688,77.2005604,15023,o3,µg/m³,0
+5641,"Mandir Marg, New Delhi - DPCC",Delhi,28.6372688,77.2005604,15022,pm10,µg/m³,0
+5641,"Mandir Marg, New Delhi - DPCC",Delhi,28.6372688,77.2005604,15014,pm25,µg/m³,0
+5641,"Mandir Marg, New Delhi - DPCC",Delhi,28.6372688,77.2005604,15013,so2,µg/m³,0
+5644,"Sanegurava Halli, Bengaluru - KSPCB",Bengaluru,12.990328,77.5431385,15039,co,µg/m³,0
+5644,"Sanegurava Halli, Bengaluru - KSPCB",Bengaluru,12.990328,77.5431385,15035,no2,µg/m³,0
+5644,"Sanegurava Halli, Bengaluru - KSPCB",Bengaluru,12.990328,77.5431385,15033,pm10,µg/m³,0
+5634,"Lodhi Road, New Delhi - IMD",Delhi,28.5918245,77.2273074,14980,no2,µg/m³,0
+12024,"Chakala-Andheri East, Mumbai - IITM",Mumbai,19.11074,72.86084,40571,pm25,µg/m³,0
+12024,"Chakala-Andheri East, Mumbai - IITM",Mumbai,19.11074,72.86084,40573,so2,µg/m³,0
+12039,"Khindipada-Bhandup West, Mumbai - IITM",Mumbai,19.164394,72.928297,40636,co,µg/m³,0
+12039,"Khindipada-Bhandup West, Mumbai - IITM",Mumbai,19.164394,72.928297,40639,no2,µg/m³,0
+5644,"Sanegurava Halli, Bengaluru - KSPCB",Bengaluru,12.990328,77.5431385,15032,so2,µg/m³,0
+5650,"IGI Airport (T3), Delhi - IMD",Delhi,28.5627763,77.1180053,12234694,o3,µg/m³,0
+5650,"IGI Airport (T3), Delhi - IMD",Delhi,28.5627763,77.1180053,12234695,pm10,µg/m³,0
+5650,"IGI Airport (T3), Delhi - IMD",Delhi,28.5627763,77.1180053,12234696,pm25,µg/m³,0
+5652,"IGSC Planetarium Complex, Patna - BSPCB",Patna,25.5941,85.1376,15084,co,µg/m³,0
+5652,"IGSC Planetarium Complex, Patna - BSPCB",Patna,25.5941,85.1376,15085,no2,µg/m³,0
+12039,"Khindipada-Bhandup West, Mumbai - IITM",Mumbai,19.164394,72.928297,12236392,o3,µg/m³,0
+12039,"Khindipada-Bhandup West, Mumbai - IITM",Mumbai,19.164394,72.928297,12236393,pm10,µg/m³,0
+12039,"Khindipada-Bhandup West, Mumbai - IITM",Mumbai,19.164394,72.928297,40608,pm25,µg/m³,0
+11612,"Sector-19A Nerul, Navi Mumbai - IITM",Mumbai,19.044,73.03250000000001,39460,pm25,µg/m³,0
+11612,"Sector-19A Nerul, Navi Mumbai - IITM",Mumbai,19.044,73.03250000000001,39463,so2,µg/m³,0
+12024,"Chakala-Andheri East, Mumbai - IITM",Mumbai,19.11074,72.86084,40569,co,µg/m³,0
+12024,"Chakala-Andheri East, Mumbai - IITM",Mumbai,19.11074,72.86084,40574,no2,µg/m³,0
+12024,"Chakala-Andheri East, Mumbai - IITM",Mumbai,19.11074,72.86084,40570,o3,µg/m³,0
+5652,"IGSC Planetarium Complex, Patna - BSPCB",Patna,25.5941,85.1376,15086,o3,µg/m³,0
+5652,"IGSC Planetarium Complex, Patna - BSPCB",Patna,25.5941,85.1376,15087,pm25,µg/m³,0
+5652,"IGSC Planetarium Complex, Patna - BSPCB",Patna,25.5941,85.1376,15089,so2,µg/m³,0
+5655,"Velachery Res. Area, Chennai - CPCB",Chennai,13.0052189,80.2398125,15110,co,µg/m³,0
+5655,"Velachery Res. Area, Chennai - CPCB",Chennai,13.0052189,80.2398125,15117,no2,µg/m³,0
+12024,"Chakala-Andheri East, Mumbai - IITM",Mumbai,19.11074,72.86084,12442195,pm10,µg/m³,0
+11611,"Malad West, Mumbai - IITM",Mumbai,19.19709,72.82204,12236426,pm25,µg/m³,0
+11611,"Malad West, Mumbai - IITM",Mumbai,19.19709,72.82204,39457,so2,µg/m³,0
+5655,"Velachery Res. Area, Chennai - CPCB",Chennai,13.0052189,80.2398125,15132,o3,µg/m³,0
+5655,"Velachery Res. Area, Chennai - CPCB",Chennai,13.0052189,80.2398125,12235530,pm10,µg/m³,0
+5655,"Velachery Res. Area, Chennai - CPCB",Chennai,13.0052189,80.2398125,15136,pm25,µg/m³,0
+5655,"Velachery Res. Area, Chennai - CPCB",Chennai,13.0052189,80.2398125,15138,so2,µg/m³,0
+5657,"Central School, Lucknow - CPCB",Lucknow,26.8821003,80.9302753,15129,co,µg/m³,0
+5657,"Central School, Lucknow - CPCB",Lucknow,26.8821003,80.9302753,15130,no2,µg/m³,0
+11612,"Sector-19A Nerul, Navi Mumbai - IITM",Mumbai,19.044,73.03250000000001,39464,co,µg/m³,0
+11612,"Sector-19A Nerul, Navi Mumbai - IITM",Mumbai,19.044,73.03250000000001,39462,no2,µg/m³,0
+11612,"Sector-19A Nerul, Navi Mumbai - IITM",Mumbai,19.044,73.03250000000001,39465,o3,µg/m³,0
+11612,"Sector-19A Nerul, Navi Mumbai - IITM",Mumbai,19.044,73.03250000000001,39461,pm10,µg/m³,0
+5657,"Central School, Lucknow - CPCB",Lucknow,26.8821003,80.9302753,15172,pm25,µg/m³,0
+5657,"Central School, Lucknow - CPCB",Lucknow,26.8821003,80.9302753,15181,so2,µg/m³,0
+5659,"Lalbagh, Lucknow - CPCB",Lucknow,26.8458805,80.9365541,15151,co,µg/m³,0
+5659,"Lalbagh, Lucknow - CPCB",Lucknow,26.8458805,80.9365541,15149,no2,µg/m³,0
+5659,"Lalbagh, Lucknow - CPCB",Lucknow,26.8458805,80.9365541,12235520,o3,µg/m³,0
+5659,"Lalbagh, Lucknow - CPCB",Lucknow,26.8458805,80.9365541,12235521,pm10,µg/m³,0
+5659,"Lalbagh, Lucknow - CPCB",Lucknow,26.8458805,80.9365541,15143,pm25,µg/m³,0
+11611,"Malad West, Mumbai - IITM",Mumbai,19.19709,72.82204,39458,co,µg/m³,0
+11611,"Malad West, Mumbai - IITM",Mumbai,19.19709,72.82204,39456,no2,µg/m³,0
+11611,"Malad West, Mumbai - IITM",Mumbai,19.19709,72.82204,39459,o3,µg/m³,0
+11611,"Malad West, Mumbai - IITM",Mumbai,19.19709,72.82204,12236425,pm10,µg/m³,0
+11607,"Lodhi Road, Delhi - IITM",Delhi,28.588333,77.221667,39433,pm25,µg/m³,0
+11607,"Lodhi Road, Delhi - IITM",Delhi,28.588333,77.221667,39436,so2,µg/m³,0
+5659,"Lalbagh, Lucknow - CPCB",Lucknow,26.8458805,80.9365541,15142,so2,µg/m³,0
+5742,"Patparganj, Delhi - DPCC",Delhi,28.6310495,77.2846218,15498,no2,µg/m³,0
+5742,"Patparganj, Delhi - DPCC",Delhi,28.6310495,77.2846218,15500,o3,µg/m³,0
+5742,"Patparganj, Delhi - DPCC",Delhi,28.6310495,77.2846218,15628,pm10,µg/m³,0
+5742,"Patparganj, Delhi - DPCC",Delhi,28.6310495,77.2846218,15629,pm25,µg/m³,0
+5742,"Patparganj, Delhi - DPCC",Delhi,28.6310495,77.2846218,15499,so2,µg/m³,0
+5743,"Rohini, Delhi - DPCC",Delhi,28.7407056,77.0577492,15503,co,µg/m³,0
+5743,"Rohini, Delhi - DPCC",Delhi,28.7407056,77.0577492,15508,no2,µg/m³,0
+5743,"Rohini, Delhi - DPCC",Delhi,28.7407056,77.0577492,15506,o3,µg/m³,0
+5743,"Rohini, Delhi - DPCC",Delhi,28.7407056,77.0577492,15622,pm10,µg/m³,0
+5743,"Rohini, Delhi - DPCC",Delhi,28.7407056,77.0577492,15618,pm25,µg/m³,0
+5657,"Central School, Lucknow - CPCB",Lucknow,26.8821003,80.9302753,15135,o3,µg/m³,0
+5657,"Central School, Lucknow - CPCB",Lucknow,26.8821003,80.9302753,34959,pm10,µg/m³,0
+5744,"Dr. Karni Singh Shooting Range, Delhi - DPCC",Delhi,28.4997315,77.2649067,15589,pm25,µg/m³,0
+5744,"Dr. Karni Singh Shooting Range, Delhi - DPCC",Delhi,28.4997315,77.2649067,15509,so2,µg/m³,0
+5753,"Vivek Vihar, Delhi - DPCC",Delhi,28.6687803,77.3130982,15545,co,µg/m³,0
+5753,"Vivek Vihar, Delhi - DPCC",Delhi,28.6687803,77.3130982,15544,no2,µg/m³,0
+5753,"Vivek Vihar, Delhi - DPCC",Delhi,28.6687803,77.3130982,15543,o3,µg/m³,0
+5753,"Vivek Vihar, Delhi - DPCC",Delhi,28.6687803,77.3130982,15615,pm10,µg/m³,0
+5753,"Vivek Vihar, Delhi - DPCC",Delhi,28.6687803,77.3130982,15604,pm25,µg/m³,0
+5753,"Vivek Vihar, Delhi - DPCC",Delhi,28.6687803,77.3130982,15546,so2,µg/m³,0
+5754,"Jawaharlal Nehru Stadium, Delhi - DPCC",Delhi,28.5828503,77.2321778,15548,co,µg/m³,0
+5754,"Jawaharlal Nehru Stadium, Delhi - DPCC",Delhi,28.5828503,77.2321778,15547,no2,µg/m³,0
+5754,"Jawaharlal Nehru Stadium, Delhi - DPCC",Delhi,28.5828503,77.2321778,15550,o3,µg/m³,0
+11607,"Lodhi Road, Delhi - IITM",Delhi,28.588333,77.221667,39437,co,µg/m³,0
+11607,"Lodhi Road, Delhi - IITM",Delhi,28.588333,77.221667,39435,no2,µg/m³,0
+11607,"Lodhi Road, Delhi - IITM",Delhi,28.588333,77.221667,39438,o3,µg/m³,0
+11607,"Lodhi Road, Delhi - IITM",Delhi,28.588333,77.221667,39434,pm10,µg/m³,0
+5755,"Major Dhyan Chand National Stadium, Delhi - DPCC",Delhi,28.6125027,77.2351994,15586,o3,µg/m³,0
+5755,"Major Dhyan Chand National Stadium, Delhi - DPCC",Delhi,28.6125027,77.2351994,15549,pm10,µg/m³,0
+5755,"Major Dhyan Chand National Stadium, Delhi - DPCC",Delhi,28.6125027,77.2351994,15551,pm25,µg/m³,0
+5755,"Major Dhyan Chand National Stadium, Delhi - DPCC",Delhi,28.6125027,77.2351994,15587,so2,µg/m³,0
+5759,"Sonia Vihar, Delhi - DPCC",Delhi,28.67795,77.29868,15568,co,µg/m³,0
+5759,"Sonia Vihar, Delhi - DPCC",Delhi,28.67795,77.29868,15567,no2,µg/m³,0
+5759,"Sonia Vihar, Delhi - DPCC",Delhi,28.67795,77.29868,15566,o3,µg/m³,0
+5759,"Sonia Vihar, Delhi - DPCC",Delhi,28.67795,77.29868,15591,pm10,µg/m³,0
+5759,"Sonia Vihar, Delhi - DPCC",Delhi,28.67795,77.29868,15595,pm25,µg/m³,0
+5759,"Sonia Vihar, Delhi - DPCC",Delhi,28.67795,77.29868,15565,so2,µg/m³,0
+5760,"Dwarka-Sector 8, Delhi - DPCC ",Delhi,28.5206826,76.8023871,15594,co,µg/m³,0
+5743,"Rohini, Delhi - DPCC",Delhi,28.7407056,77.0577492,15504,so2,µg/m³,0
+5744,"Dr. Karni Singh Shooting Range, Delhi - DPCC",Delhi,28.4997315,77.2649067,15510,co,µg/m³,0
+5744,"Dr. Karni Singh Shooting Range, Delhi - DPCC",Delhi,28.4997315,77.2649067,15505,no2,µg/m³,0
+5744,"Dr. Karni Singh Shooting Range, Delhi - DPCC",Delhi,28.4997315,77.2649067,15507,o3,µg/m³,0
+5744,"Dr. Karni Singh Shooting Range, Delhi - DPCC",Delhi,28.4997315,77.2649067,15588,pm10,µg/m³,0
+5761,"Jahangirpuri, Delhi - DPCC",Delhi,28.7258373,77.1605631,15578,co,µg/m³,0
+5761,"Jahangirpuri, Delhi - DPCC",Delhi,28.7258373,77.1605631,15572,no2,µg/m³,0
+5761,"Jahangirpuri, Delhi - DPCC",Delhi,28.7258373,77.1605631,15577,o3,µg/m³,0
+5761,"Jahangirpuri, Delhi - DPCC",Delhi,28.7258373,77.1605631,15623,pm10,µg/m³,0
+5761,"Jahangirpuri, Delhi - DPCC",Delhi,28.7258373,77.1605631,15621,pm25,µg/m³,0
+5761,"Jahangirpuri, Delhi - DPCC",Delhi,28.7258373,77.1605631,15585,so2,µg/m³,0
+5762,"Ashok Vihar, Delhi - DPCC",Delhi,28.6957202,77.1812947,15583,co,µg/m³,0
+5762,"Ashok Vihar, Delhi - DPCC",Delhi,28.6957202,77.1812947,15584,no2,µg/m³,0
+5762,"Ashok Vihar, Delhi - DPCC",Delhi,28.6957202,77.1812947,15573,o3,µg/m³,0
+5762,"Ashok Vihar, Delhi - DPCC",Delhi,28.6957202,77.1812947,15605,pm10,µg/m³,0
+5762,"Ashok Vihar, Delhi - DPCC",Delhi,28.6957202,77.1812947,15602,pm25,µg/m³,0
+5754,"Jawaharlal Nehru Stadium, Delhi - DPCC",Delhi,28.5828503,77.2321778,15619,pm10,µg/m³,0
+5754,"Jawaharlal Nehru Stadium, Delhi - DPCC",Delhi,28.5828503,77.2321778,15620,pm25,µg/m³,0
+5754,"Jawaharlal Nehru Stadium, Delhi - DPCC",Delhi,28.5828503,77.2321778,15552,so2,µg/m³,0
+5755,"Major Dhyan Chand National Stadium, Delhi - DPCC",Delhi,28.6125027,77.2351994,15582,co,µg/m³,0
+5755,"Major Dhyan Chand National Stadium, Delhi - DPCC",Delhi,28.6125027,77.2351994,15574,no2,µg/m³,0
+5763,"Narela, Delhi - DPCC",Delhi,28.8446874,77.0332666,15606,pm25,µg/m³,0
+5763,"Narela, Delhi - DPCC",Delhi,28.8446874,77.0332666,15575,so2,µg/m³,0
+5765,"Okhla Phase-2, Delhi - DPCC",Delhi,28.5366411,77.2664587,15597,co,µg/m³,0
+5765,"Okhla Phase-2, Delhi - DPCC",Delhi,28.5366411,77.2664587,15600,no2,µg/m³,0
+5765,"Okhla Phase-2, Delhi - DPCC",Delhi,28.5366411,77.2664587,15598,o3,µg/m³,0
+5765,"Okhla Phase-2, Delhi - DPCC",Delhi,28.5366411,77.2664587,15624,pm10,µg/m³,0
+5765,"Okhla Phase-2, Delhi - DPCC",Delhi,28.5366411,77.2664587,15627,pm25,µg/m³,0
+5765,"Okhla Phase-2, Delhi - DPCC",Delhi,28.5366411,77.2664587,15599,so2,µg/m³,0
+5766,"Nehru Nagar, Delhi - DPCC",Delhi,28.5639543,77.2587868,15607,co,µg/m³,0
+5766,"Nehru Nagar, Delhi - DPCC",Delhi,28.5639543,77.2587868,15612,no2,µg/m³,0
+5766,"Nehru Nagar, Delhi - DPCC",Delhi,28.5639543,77.2587868,15616,o3,µg/m³,0
+5760,"Dwarka-Sector 8, Delhi - DPCC ",Delhi,28.5206826,76.8023871,15593,no2,µg/m³,0
+5760,"Dwarka-Sector 8, Delhi - DPCC ",Delhi,28.5206826,76.8023871,15592,o3,µg/m³,0
+5760,"Dwarka-Sector 8, Delhi - DPCC ",Delhi,28.5206826,76.8023871,15569,pm10,µg/m³,0
+5760,"Dwarka-Sector 8, Delhi - DPCC ",Delhi,28.5206826,76.8023871,15570,pm25,µg/m³,0
+5760,"Dwarka-Sector 8, Delhi - DPCC ",Delhi,28.5206826,76.8023871,15590,so2,µg/m³,0
+5766,"Nehru Nagar, Delhi - DPCC",Delhi,28.5639543,77.2587868,15626,pm25,µg/m³,0
+5766,"Nehru Nagar, Delhi - DPCC",Delhi,28.5639543,77.2587868,15608,so2,µg/m³,0
+6310,"Rabindra Bharati University, Kolkata - WBPCB",Kolkata,22.5824635,88.35724470000001,17541,co,µg/m³,0
+6310,"Rabindra Bharati University, Kolkata - WBPCB",Kolkata,22.5824635,88.35724470000001,17543,no2,µg/m³,0
+6310,"Rabindra Bharati University, Kolkata - WBPCB",Kolkata,22.5824635,88.35724470000001,17544,o3,µg/m³,0
+6310,"Rabindra Bharati University, Kolkata - WBPCB",Kolkata,22.5824635,88.35724470000001,17540,pm10,µg/m³,0
+6310,"Rabindra Bharati University, Kolkata - WBPCB",Kolkata,22.5824635,88.35724470000001,1715600,pm25,µg/m³,0
+6310,"Rabindra Bharati University, Kolkata - WBPCB",Kolkata,22.5824635,88.35724470000001,17542,so2,µg/m³,0
+6356,"Pusa, Delhi - DPCC",Delhi,28.639645,77.146262,12235319,o3,µg/m³,0
+6356,"Pusa, Delhi - DPCC",Delhi,28.639645,77.146262,12235320,pm10,µg/m³,0
+6356,"Pusa, Delhi - DPCC",Delhi,28.639645,77.146262,12235321,pm25,µg/m³,0
+5762,"Ashok Vihar, Delhi - DPCC",Delhi,28.6957202,77.1812947,15579,so2,µg/m³,0
+5763,"Narela, Delhi - DPCC",Delhi,28.8446874,77.0332666,15576,co,µg/m³,0
+5763,"Narela, Delhi - DPCC",Delhi,28.8446874,77.0332666,15581,no2,µg/m³,0
+5763,"Narela, Delhi - DPCC",Delhi,28.8446874,77.0332666,15580,o3,µg/m³,0
+5763,"Narela, Delhi - DPCC",Delhi,28.8446874,77.0332666,15609,pm10,µg/m³,0
+11606,"Borivali East, Mumbai - IITM",Mumbai,19.23241,72.86895,39430,no2,µg/m³,0
+11606,"Borivali East, Mumbai - IITM",Mumbai,19.23241,72.86895,39432,o3,µg/m³,0
+11606,"Borivali East, Mumbai - IITM",Mumbai,19.23241,72.86895,39429,pm10,µg/m³,0
+11606,"Borivali East, Mumbai - IITM",Mumbai,19.23241,72.86895,39428,pm25,µg/m³,0
+6357,"Punjabi Bagh, Delhi - DPCC",Delhi,28.674045000000003,77.13102300000001,17769,co,µg/m³,0
+6357,"Punjabi Bagh, Delhi - DPCC",Delhi,28.674045000000003,77.13102300000001,17771,no2,µg/m³,0
+6357,"Punjabi Bagh, Delhi - DPCC",Delhi,28.674045000000003,77.13102300000001,17774,o3,µg/m³,0
+6357,"Punjabi Bagh, Delhi - DPCC",Delhi,28.674045000000003,77.13102300000001,17768,pm10,µg/m³,0
+6357,"Punjabi Bagh, Delhi - DPCC",Delhi,28.674045000000003,77.13102300000001,17776,pm25,µg/m³,0
+6357,"Punjabi Bagh, Delhi - DPCC",Delhi,28.674045000000003,77.13102300000001,17778,so2,µg/m³,0
+6358,"Mandir Marg, New Delhi - DPCC",Delhi,28.636429,77.201067,17772,co,µg/m³,0
+6358,"Mandir Marg, New Delhi - DPCC",Delhi,28.636429,77.201067,17773,no2,µg/m³,0
+5766,"Nehru Nagar, Delhi - DPCC",Delhi,28.5639543,77.2587868,15625,pm10,µg/m³,0
+11603,"Chandni Chowk, Delhi - IITM",Delhi,28.656756,77.227234,39413,so2,µg/m³,0
+11604,"Deonar, Mumbai - IITM",Mumbai,19.04946,72.923,39420,co,µg/m³,0
+11604,"Deonar, Mumbai - IITM",Mumbai,19.04946,72.923,39418,no2,µg/m³,0
+11604,"Deonar, Mumbai - IITM",Mumbai,19.04946,72.923,39421,o3,µg/m³,0
+11604,"Deonar, Mumbai - IITM",Mumbai,19.04946,72.923,39417,pm10,µg/m³,0
+6358,"Mandir Marg, New Delhi - DPCC",Delhi,28.636429,77.201067,17777,o3,µg/m³,0
+6358,"Mandir Marg, New Delhi - DPCC",Delhi,28.636429,77.201067,12234777,pm10,µg/m³,0
+6358,"Mandir Marg, New Delhi - DPCC",Delhi,28.636429,77.201067,17770,pm25,µg/m³,0
+6358,"Mandir Marg, New Delhi - DPCC",Delhi,28.636429,77.201067,17779,so2,µg/m³,0
+6359,"IHBAS, Dilshad Garden,New Delhi - CPCB",Delhi,28.6811736,77.3025234,17792,co,µg/m³,0
+11604,"Deonar, Mumbai - IITM",Mumbai,19.04946,72.923,39416,pm25,µg/m³,0
+11604,"Deonar, Mumbai - IITM",Mumbai,19.04946,72.923,39419,so2,µg/m³,0
+11606,"Borivali East, Mumbai - IITM",Mumbai,19.23241,72.86895,39431,co,µg/m³,0
+11603,"Chandni Chowk, Delhi - IITM",Delhi,28.656756,77.227234,39412,no2,µg/m³,0
+6359,"IHBAS, Dilshad Garden,New Delhi - CPCB",Delhi,28.6811736,77.3025234,17791,no2,µg/m³,0
+6359,"IHBAS, Dilshad Garden,New Delhi - CPCB",Delhi,28.6811736,77.3025234,36058,o3,µg/m³,0
+6359,"IHBAS, Dilshad Garden,New Delhi - CPCB",Delhi,28.6811736,77.3025234,36050,pm10,µg/m³,0
+6359,"IHBAS, Dilshad Garden,New Delhi - CPCB",Delhi,28.6811736,77.3025234,17790,pm25,µg/m³,0
+6359,"IHBAS, Dilshad Garden,New Delhi - CPCB",Delhi,28.6811736,77.3025234,17780,so2,µg/m³,0
+6920,"Manali Village, Chennai - TNPCB",Chennai,11.258244,77.552429,19869,co,µg/m³,0
+11603,"Chandni Chowk, Delhi - IITM",Delhi,28.656756,77.227234,12236359,o3,µg/m³,0
+11603,"Chandni Chowk, Delhi - IITM",Delhi,28.656756,77.227234,39411,pm10,µg/m³,0
+11603,"Chandni Chowk, Delhi - IITM",Delhi,28.656756,77.227234,12236361,pm25,µg/m³,0
+6920,"Manali Village, Chennai - TNPCB",Chennai,11.258244,77.552429,19872,so2,µg/m³,0
+6927,"Colaba, Mumbai - MPCB",Mumbai,18.91,72.82,20137,co,µg/m³,0
+6927,"Colaba, Mumbai - MPCB",Mumbai,18.91,72.82,19892,no2,µg/m³,0
+6927,"Colaba, Mumbai - MPCB",Mumbai,18.91,72.82,20139,o3,µg/m³,0
+6927,"Colaba, Mumbai - MPCB",Mumbai,18.91,72.82,20142,pm10,µg/m³,0
+6927,"Colaba, Mumbai - MPCB",Mumbai,18.91,72.82,12235926,pm25,µg/m³,0
+11581,"Arumbakkam, Chennai - TNPCB",Chennai,13.0664,80.2112,39521,so2,µg/m³,0
+11602,"Bandra Kurla Complex, Mumbai - IITM",Mumbai,19.053536000000005,72.84643,39408,co,µg/m³,0
+11602,"Bandra Kurla Complex, Mumbai - IITM",Mumbai,19.053536000000005,72.84643,39406,no2,µg/m³,0
+11602,"Bandra Kurla Complex, Mumbai - IITM",Mumbai,19.053536000000005,72.84643,39409,o3,µg/m³,0
+11602,"Bandra Kurla Complex, Mumbai - IITM",Mumbai,19.053536000000005,72.84643,39405,pm10,µg/m³,0
+11602,"Bandra Kurla Complex, Mumbai - IITM",Mumbai,19.053536000000005,72.84643,39404,pm25,µg/m³,0
+11602,"Bandra Kurla Complex, Mumbai - IITM",Mumbai,19.053536000000005,72.84643,39407,so2,µg/m³,0
+11603,"Chandni Chowk, Delhi - IITM",Delhi,28.656756,77.227234,39414,co,µg/m³,0
+11581,"Arumbakkam, Chennai - TNPCB",Chennai,13.0664,80.2112,39337,no2,µg/m³,0
+11581,"Arumbakkam, Chennai - TNPCB",Chennai,13.0664,80.2112,12236273,pm10,µg/m³,0
+11581,"Arumbakkam, Chennai - TNPCB",Chennai,13.0664,80.2112,12236274,pm25,µg/m³,0
+6927,"Colaba, Mumbai - MPCB",Mumbai,18.91,72.82,20144,so2,µg/m³,0
+6928,"Vasai West, Mumbai - MPCB",Mumbai,19.3832,72.8204,19896,co,µg/m³,0
+6928,"Vasai West, Mumbai - MPCB",Mumbai,19.3832,72.8204,19893,no2,µg/m³,0
+6928,"Vasai West, Mumbai - MPCB",Mumbai,19.3832,72.8204,19895,o3,µg/m³,0
+6928,"Vasai West, Mumbai - MPCB",Mumbai,19.3832,72.8204,12235822,pm10,µg/m³,0
+6920,"Manali Village, Chennai - TNPCB",Chennai,11.258244,77.552429,19868,no2,µg/m³,0
+6920,"Manali Village, Chennai - TNPCB",Chennai,11.258244,77.552429,19867,o3,µg/m³,0
+6920,"Manali Village, Chennai - TNPCB",Chennai,11.258244,77.552429,19871,pm10,µg/m³,0
+6920,"Manali Village, Chennai - TNPCB",Chennai,11.258244,77.552429,19870,pm25,µg/m³,0
+11579,"Kodungaiyur, Chennai - TNPCB",Chennai,13.1278,80.2642,39330,co,µg/m³,0
+11579,"Kodungaiyur, Chennai - TNPCB",Chennai,13.1278,80.2642,39328,no2,µg/m³,0
+11579,"Kodungaiyur, Chennai - TNPCB",Chennai,13.1278,80.2642,12236306,o3,µg/m³,0
+11579,"Kodungaiyur, Chennai - TNPCB",Chennai,13.1278,80.2642,12236307,pm10,µg/m³,0
+11579,"Kodungaiyur, Chennai - TNPCB",Chennai,13.1278,80.2642,39326,pm25,µg/m³,0
+6928,"Vasai West, Mumbai - MPCB",Mumbai,19.3832,72.8204,12235823,pm25,µg/m³,0
+6928,"Vasai West, Mumbai - MPCB",Mumbai,19.3832,72.8204,19897,so2,µg/m³,0
+6929,"Major Dhyan Chand National Stadium, Delhi - DPCC",Delhi,28.611281,77.237738,19901,co,µg/m³,0
+6929,"Major Dhyan Chand National Stadium, Delhi - DPCC",Delhi,28.611281,77.237738,19902,no2,µg/m³,0
+6929,"Major Dhyan Chand National Stadium, Delhi - DPCC",Delhi,28.611281,77.237738,12235045,o3,µg/m³,0
+11579,"Kodungaiyur, Chennai - TNPCB",Chennai,13.1278,80.2642,39329,so2,µg/m³,0
+11578,"Royapuram, Chennai - TNPCB",Chennai,13.1036,80.2909,39323,no2,µg/m³,0
+11578,"Royapuram, Chennai - TNPCB",Chennai,13.1036,80.2909,39389,o3,µg/m³,0
+11578,"Royapuram, Chennai - TNPCB",Chennai,13.1036,80.2909,12236298,pm10,µg/m³,0
+11578,"Royapuram, Chennai - TNPCB",Chennai,13.1036,80.2909,39321,pm25,µg/m³,0
+11578,"Royapuram, Chennai - TNPCB",Chennai,13.1036,80.2909,39324,so2,µg/m³,0
+6929,"Major Dhyan Chand National Stadium, Delhi - DPCC",Delhi,28.611281,77.237738,12235046,pm10,µg/m³,0
+6929,"Major Dhyan Chand National Stadium, Delhi - DPCC",Delhi,28.611281,77.237738,12235047,pm25,µg/m³,0
+6929,"Major Dhyan Chand National Stadium, Delhi - DPCC",Delhi,28.611281,77.237738,19899,so2,µg/m³,0
+6931,"Dwarka-Sector 8, Delhi - DPCC ",Delhi,28.5710274,77.0719006,19957,co,µg/m³,0
+6931,"Dwarka-Sector 8, Delhi - DPCC ",Delhi,28.5710274,77.0719006,19956,no2,µg/m³,0
+10918,"Ballygunge, Kolkata - WBPCB",Kolkata,22.5367507,88.3638022,12236010,o3,µg/m³,0
+10918,"Ballygunge, Kolkata - WBPCB",Kolkata,22.5367507,88.3638022,12236011,pm10,µg/m³,0
+10918,"Ballygunge, Kolkata - WBPCB",Kolkata,22.5367507,88.3638022,12236012,pm25,µg/m³,0
+10918,"Ballygunge, Kolkata - WBPCB",Kolkata,22.5367507,88.3638022,36639,so2,µg/m³,0
+6931,"Dwarka-Sector 8, Delhi - DPCC ",Delhi,28.5710274,77.0719006,12235018,o3,µg/m³,0
+6931,"Dwarka-Sector 8, Delhi - DPCC ",Delhi,28.5710274,77.0719006,12235019,pm10,µg/m³,0
+6931,"Dwarka-Sector 8, Delhi - DPCC ",Delhi,28.5710274,77.0719006,12235020,pm25,µg/m³,0
+6931,"Dwarka-Sector 8, Delhi - DPCC ",Delhi,28.5710274,77.0719006,20147,so2,µg/m³,0
+6932,"Alipur, Delhi - DPCC",Delhi,28.815329,77.15301,19939,co,µg/m³,0
+11578,"Royapuram, Chennai - TNPCB",Chennai,13.1036,80.2909,39325,co,µg/m³,0
+10904,"Rabindra Sarobar, Kolkata - WBPCB",Kolkata,22.51106,88.35142,36581,o3,µg/m³,0
+10904,"Rabindra Sarobar, Kolkata - WBPCB",Kolkata,22.51106,88.35142,12235966,pm10,µg/m³,0
+10904,"Rabindra Sarobar, Kolkata - WBPCB",Kolkata,22.51106,88.35142,12235967,pm25,µg/m³,0
+10904,"Rabindra Sarobar, Kolkata - WBPCB",Kolkata,22.51106,88.35142,36651,so2,µg/m³,0
+6932,"Alipur, Delhi - DPCC",Delhi,28.815329,77.15301,19948,no2,µg/m³,0
+6932,"Alipur, Delhi - DPCC",Delhi,28.815329,77.15301,19950,o3,µg/m³,0
+6932,"Alipur, Delhi - DPCC",Delhi,28.815329,77.15301,12235697,pm10,µg/m³,0
+6932,"Alipur, Delhi - DPCC",Delhi,28.815329,77.15301,19935,pm25,µg/m³,0
+6932,"Alipur, Delhi - DPCC",Delhi,28.815329,77.15301,19912,so2,µg/m³,0
+10918,"Ballygunge, Kolkata - WBPCB",Kolkata,22.5367507,88.3638022,36652,co,µg/m³,0
+10918,"Ballygunge, Kolkata - WBPCB",Kolkata,22.5367507,88.3638022,36648,no2,µg/m³,0
+10851,"Bidhannagar, Kolkata - WBPCB",Kolkata,22.58157048,88.41002457,12235993,pm10,µg/m³,0
+10851,"Bidhannagar, Kolkata - WBPCB",Kolkata,22.58157048,88.41002457,36317,pm25,µg/m³,0
+10851,"Bidhannagar, Kolkata - WBPCB",Kolkata,22.58157048,88.41002457,36316,so2,µg/m³,0
+10904,"Rabindra Sarobar, Kolkata - WBPCB",Kolkata,22.51106,88.35142,36549,co,µg/m³,0
+6934,"Dr. Karni Singh Shooting Range, Delhi - DPCC",Delhi,28.498571,77.26484,19925,co,µg/m³,0
+6934,"Dr. Karni Singh Shooting Range, Delhi - DPCC",Delhi,28.498571,77.26484,19930,no2,µg/m³,0
+6934,"Dr. Karni Singh Shooting Range, Delhi - DPCC",Delhi,28.498571,77.26484,19917,o3,µg/m³,0
+6934,"Dr. Karni Singh Shooting Range, Delhi - DPCC",Delhi,28.498571,77.26484,19941,pm10,µg/m³,0
+6934,"Dr. Karni Singh Shooting Range, Delhi - DPCC",Delhi,28.498571,77.26484,19919,pm25,µg/m³,0
+6934,"Dr. Karni Singh Shooting Range, Delhi - DPCC",Delhi,28.498571,77.26484,19943,so2,µg/m³,0
+10904,"Rabindra Sarobar, Kolkata - WBPCB",Kolkata,22.51106,88.35142,36551,no2,µg/m³,0
+10831,"Rohini, Delhi - DPCC",Delhi,28.732528,77.11992,36399,pm25,µg/m³,0
+10831,"Rohini, Delhi - DPCC",Delhi,28.732528,77.11992,36449,so2,µg/m³,0
+10851,"Bidhannagar, Kolkata - WBPCB",Kolkata,22.58157048,88.41002457,36321,co,µg/m³,0
+6938,"Vivek Vihar, Delhi - DPCC",Delhi,28.672342,77.31526,19926,co,µg/m³,0
+6938,"Vivek Vihar, Delhi - DPCC",Delhi,28.672342,77.31526,19929,no2,µg/m³,0
+6938,"Vivek Vihar, Delhi - DPCC",Delhi,28.672342,77.31526,12235131,o3,µg/m³,0
+6938,"Vivek Vihar, Delhi - DPCC",Delhi,28.672342,77.31526,19933,pm10,µg/m³,0
+6938,"Vivek Vihar, Delhi - DPCC",Delhi,28.672342,77.31526,12235133,pm25,µg/m³,0
+6938,"Vivek Vihar, Delhi - DPCC",Delhi,28.672342,77.31526,19938,so2,µg/m³,0
+10851,"Bidhannagar, Kolkata - WBPCB",Kolkata,22.58157048,88.41002457,36320,no2,µg/m³,0
+10851,"Bidhannagar, Kolkata - WBPCB",Kolkata,22.58157048,88.41002457,12235992,o3,µg/m³,0
+10780,"Manali Village, Chennai - TNPCB",Chennai,13.1662,80.2584,36017,so2,µg/m³,0
+10831,"Rohini, Delhi - DPCC",Delhi,28.732528,77.11992,36208,co,µg/m³,0
+10831,"Rohini, Delhi - DPCC",Delhi,28.732528,77.11992,36209,no2,µg/m³,0
+6943,"Mahape, Navi Mumbai - MPCB",Mumbai,19.1135051,73.008978,20128,co,µg/m³,0
+6943,"Mahape, Navi Mumbai - MPCB",Mumbai,19.1135051,73.008978,20069,no2,µg/m³,0
+6943,"Mahape, Navi Mumbai - MPCB",Mumbai,19.1135051,73.008978,12235903,o3,µg/m³,0
+6943,"Mahape, Navi Mumbai - MPCB",Mumbai,19.1135051,73.008978,20068,pm10,µg/m³,0
+6943,"Mahape, Navi Mumbai - MPCB",Mumbai,19.1135051,73.008978,12235905,pm25,µg/m³,0
+10831,"Rohini, Delhi - DPCC",Delhi,28.732528,77.11992,36213,o3,µg/m³,0
+10831,"Rohini, Delhi - DPCC",Delhi,28.732528,77.11992,12235091,pm10,µg/m³,0
+10780,"Manali Village, Chennai - TNPCB",Chennai,13.1662,80.2584,36026,co,µg/m³,0
+10780,"Manali Village, Chennai - TNPCB",Chennai,13.1662,80.2584,36023,no2,µg/m³,0
+10780,"Manali Village, Chennai - TNPCB",Chennai,13.1662,80.2584,36021,o3,µg/m³,0
+6943,"Mahape, Navi Mumbai - MPCB",Mumbai,19.1135051,73.008978,20023,so2,µg/m³,0
+6945,"Kurla, Mumbai - MPCB",Mumbai,19.0863,72.8888,19993,co,µg/m³,0
+6945,"Kurla, Mumbai - MPCB",Mumbai,19.0863,72.8888,20076,no2,µg/m³,0
+6945,"Kurla, Mumbai - MPCB",Mumbai,19.0863,72.8888,19968,o3,µg/m³,0
+6945,"Kurla, Mumbai - MPCB",Mumbai,19.0863,72.8888,19975,pm10,µg/m³,0
+6945,"Kurla, Mumbai - MPCB",Mumbai,19.0863,72.8888,19978,pm25,µg/m³,0
+10780,"Manali Village, Chennai - TNPCB",Chennai,13.1662,80.2584,12235795,pm10,µg/m³,0
+10780,"Manali Village, Chennai - TNPCB",Chennai,13.1662,80.2584,36018,pm25,µg/m³,0
+10697,"Samanpura, Patna - BSPCB",Patna,25.596727,85.085624,35630,co,µg/m³,0
+10697,"Samanpura, Patna - BSPCB",Patna,25.596727,85.085624,35631,no2,µg/m³,0
+10697,"Samanpura, Patna - BSPCB",Patna,25.596727,85.085624,12236109,o3,µg/m³,0
+10697,"Samanpura, Patna - BSPCB",Patna,25.596727,85.085624,35633,pm10,µg/m³,0
+6945,"Kurla, Mumbai - MPCB",Mumbai,19.0863,72.8888,19987,so2,µg/m³,0
+6948,"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",Mumbai,19.10078,72.87462,19976,co,µg/m³,0
+6948,"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",Mumbai,19.10078,72.87462,19977,no2,µg/m³,0
+6948,"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",Mumbai,19.10078,72.87462,12235858,o3,µg/m³,0
+6948,"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",Mumbai,19.10078,72.87462,12235859,pm10,µg/m³,0
+10697,"Samanpura, Patna - BSPCB",Patna,25.596727,85.085624,35635,pm25,µg/m³,0
+10697,"Samanpura, Patna - BSPCB",Patna,25.596727,85.085624,35636,so2,µg/m³,0
+10670,"Muradpur, Patna - BSPCB",Patna,25.619651,85.147382,35527,co,µg/m³,0
+10670,"Muradpur, Patna - BSPCB",Patna,25.619651,85.147382,35526,no2,µg/m³,0
+10670,"Muradpur, Patna - BSPCB",Patna,25.619651,85.147382,12236091,o3,µg/m³,0
+10670,"Muradpur, Patna - BSPCB",Patna,25.619651,85.147382,12236092,pm10,µg/m³,0
+10670,"Muradpur, Patna - BSPCB",Patna,25.619651,85.147382,35516,pm25,µg/m³,0
+6948,"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",Mumbai,19.10078,72.87462,12235860,pm25,µg/m³,0
+6948,"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",Mumbai,19.10078,72.87462,19982,so2,µg/m³,0
+6950,"Jadavpur, Kolkata - WBPCB",Kolkata,22.49929,88.36917,19986,co,µg/m³,0
+6950,"Jadavpur, Kolkata - WBPCB",Kolkata,22.49929,88.36917,19988,no2,µg/m³,0
+6950,"Jadavpur, Kolkata - WBPCB",Kolkata,22.49929,88.36917,12235885,o3,µg/m³,0
+10670,"Muradpur, Patna - BSPCB",Patna,25.619651,85.147382,35515,so2,µg/m³,0
+10633,"Victoria, Kolkata - WBPCB",Kolkata,22.5448082,88.3403691,35353,no2,µg/m³,0
+10633,"Victoria, Kolkata - WBPCB",Kolkata,22.5448082,88.3403691,35354,o3,µg/m³,0
+10633,"Victoria, Kolkata - WBPCB",Kolkata,22.5448082,88.3403691,12235679,pm10,µg/m³,0
+10633,"Victoria, Kolkata - WBPCB",Kolkata,22.5448082,88.3403691,35356,pm25,µg/m³,0
+10633,"Victoria, Kolkata - WBPCB",Kolkata,22.5448082,88.3403691,35447,so2,µg/m³,0
+6950,"Jadavpur, Kolkata - WBPCB",Kolkata,22.49929,88.36917,19994,pm10,µg/m³,0
+6950,"Jadavpur, Kolkata - WBPCB",Kolkata,22.49929,88.36917,19997,pm25,µg/m³,0
+6950,"Jadavpur, Kolkata - WBPCB",Kolkata,22.49929,88.36917,20002,so2,µg/m³,0
+6956,"Powai, Mumbai - MPCB",Mumbai,19.1375,72.915056,20125,co,µg/m³,0
+6956,"Powai, Mumbai - MPCB",Mumbai,19.1375,72.915056,20083,no2,µg/m³,0
+10630,"Govt. High School Shikarpur, Patna - BSPCB",Patna,25.592539,85.227158,35348,o3,µg/m³,0
+10630,"Govt. High School Shikarpur, Patna - BSPCB",Patna,25.592539,85.227158,35341,pm10,µg/m³,0
+10630,"Govt. High School Shikarpur, Patna - BSPCB",Patna,25.592539,85.227158,35337,pm25,µg/m³,0
+10630,"Govt. High School Shikarpur, Patna - BSPCB",Patna,25.592539,85.227158,35336,so2,µg/m³,0
+6956,"Powai, Mumbai - MPCB",Mumbai,19.1375,72.915056,12235894,o3,µg/m³,0
+6956,"Powai, Mumbai - MPCB",Mumbai,19.1375,72.915056,20010,pm10,µg/m³,0
+6956,"Powai, Mumbai - MPCB",Mumbai,19.1375,72.915056,12235896,pm25,µg/m³,0
+6956,"Powai, Mumbai - MPCB",Mumbai,19.1375,72.915056,20101,so2,µg/m³,0
+6957,"Jawaharlal Nehru Stadium, Delhi - DPCC",Delhi,28.58028,77.233829,20015,co,µg/m³,0
+10633,"Victoria, Kolkata - WBPCB",Kolkata,22.5448082,88.3403691,35352,co,µg/m³,0
+10599,"Rajbansi Nagar, Patna - BSPCB",Patna,25.599486,85.113666,12236100,o3,µg/m³,0
+10599,"Rajbansi Nagar, Patna - BSPCB",Patna,25.599486,85.113666,12236101,pm10,µg/m³,0
+10599,"Rajbansi Nagar, Patna - BSPCB",Patna,25.599486,85.113666,12236102,pm25,µg/m³,0
+10599,"Rajbansi Nagar, Patna - BSPCB",Patna,25.599486,85.113666,35386,so2,µg/m³,0
+6957,"Jawaharlal Nehru Stadium, Delhi - DPCC",Delhi,28.58028,77.233829,20017,no2,µg/m³,0
+6957,"Jawaharlal Nehru Stadium, Delhi - DPCC",Delhi,28.58028,77.233829,20018,o3,µg/m³,0
+6957,"Jawaharlal Nehru Stadium, Delhi - DPCC",Delhi,28.58028,77.233829,20019,pm10,µg/m³,0
+6957,"Jawaharlal Nehru Stadium, Delhi - DPCC",Delhi,28.58028,77.233829,12235038,pm25,µg/m³,0
+6957,"Jawaharlal Nehru Stadium, Delhi - DPCC",Delhi,28.58028,77.233829,20021,so2,µg/m³,0
+10630,"Govt. High School Shikarpur, Patna - BSPCB",Patna,25.592539,85.227158,35360,co,µg/m³,0
+10630,"Govt. High School Shikarpur, Patna - BSPCB",Patna,25.592539,85.227158,35350,no2,µg/m³,0
+10489,"ITO, Delhi - CPCB",Delhi,28.628624,77.24106,34816,o3,µg/m³,0
+10489,"ITO, Delhi - CPCB",Delhi,28.628624,77.24106,34793,pm10,µg/m³,0
+10489,"ITO, Delhi - CPCB",Delhi,28.628624,77.24106,35016,pm25,µg/m³,0
+10489,"ITO, Delhi - CPCB",Delhi,28.628624,77.24106,35015,so2,µg/m³,0
+10599,"Rajbansi Nagar, Patna - BSPCB",Patna,25.599486,85.113666,35189,co,µg/m³,0
+6959,"Siddharth Nagar-Worli, Mumbai - IITM",Mumbai,19.000083,72.813993,20029,co,µg/m³,0
+6959,"Siddharth Nagar-Worli, Mumbai - IITM",Mumbai,19.000083,72.813993,20030,no2,µg/m³,0
+6959,"Siddharth Nagar-Worli, Mumbai - IITM",Mumbai,19.000083,72.813993,12236433,o3,µg/m³,0
+6959,"Siddharth Nagar-Worli, Mumbai - IITM",Mumbai,19.000083,72.813993,20032,pm10,µg/m³,0
+6959,"Siddharth Nagar-Worli, Mumbai - IITM",Mumbai,19.000083,72.813993,20033,pm25,µg/m³,0
+6959,"Siddharth Nagar-Worli, Mumbai - IITM",Mumbai,19.000083,72.813993,20034,so2,µg/m³,0
+10599,"Rajbansi Nagar, Patna - BSPCB",Patna,25.599486,85.113666,35204,no2,µg/m³,0
+10488,"Najafgarh, Delhi - DPCC",Delhi,28.570173,76.933762,34777,o3,µg/m³,0
+10488,"Najafgarh, Delhi - DPCC",Delhi,28.570173,76.933762,12235064,pm10,µg/m³,0
+6960,"Patparganj, Delhi - DPCC",Delhi,28.623748,77.287205,20037,no2,µg/m³,0
+6960,"Patparganj, Delhi - DPCC",Delhi,28.623748,77.287205,12235099,o3,µg/m³,0
+6960,"Patparganj, Delhi - DPCC",Delhi,28.623748,77.287205,12235100,pm10,µg/m³,0
+6960,"Patparganj, Delhi - DPCC",Delhi,28.623748,77.287205,20049,pm25,µg/m³,0
+6960,"Patparganj, Delhi - DPCC",Delhi,28.623748,77.287205,20055,so2,µg/m³,0
+10488,"Najafgarh, Delhi - DPCC",Delhi,28.570173,76.933762,34774,pm25,µg/m³,0
+10488,"Najafgarh, Delhi - DPCC",Delhi,28.570173,76.933762,34773,so2,µg/m³,0
+10489,"ITO, Delhi - CPCB",Delhi,28.628624,77.24106,34823,co,µg/m³,0
+10489,"ITO, Delhi - CPCB",Delhi,28.628624,77.24106,34821,no2,µg/m³,0
+6965,"Borivali East, Mumbai - MPCB",Mumbai,19.227474,72.864394,12252656,o3,µg/m³,0
+6965,"Borivali East, Mumbai - MPCB",Mumbai,19.227474,72.864394,12252657,pm10,µg/m³,0
+6965,"Borivali East, Mumbai - MPCB",Mumbai,19.227474,72.864394,12252658,pm25,µg/m³,0
+6965,"Borivali East, Mumbai - MPCB",Mumbai,19.227474,72.864394,20090,so2,µg/m³,0
+10487,"Anand Vihar, Delhi - DPCC",Delhi,28.646835,77.316032,34787,co,µg/m³,0
+10487,"Anand Vihar, Delhi - DPCC",Delhi,28.646835,77.316032,34784,no2,µg/m³,0
+10487,"Anand Vihar, Delhi - DPCC",Delhi,28.646835,77.316032,34783,o3,µg/m³,0
+10487,"Anand Vihar, Delhi - DPCC",Delhi,28.646835,77.316032,34780,pm10,µg/m³,0
+10487,"Anand Vihar, Delhi - DPCC",Delhi,28.646835,77.316032,34771,pm25,µg/m³,0
+10487,"Anand Vihar, Delhi - DPCC",Delhi,28.646835,77.316032,34770,so2,µg/m³,0
+10488,"Najafgarh, Delhi - DPCC",Delhi,28.570173,76.933762,34779,co,µg/m³,0
+10488,"Najafgarh, Delhi - DPCC",Delhi,28.570173,76.933762,34778,no2,µg/m³,0
+10486,"Mundka, Delhi - DPCC",Delhi,28.684678,77.076574,34765,o3,µg/m³,0
+10486,"Mundka, Delhi - DPCC",Delhi,28.684678,77.076574,12235302,pm10,µg/m³,0
+10486,"Mundka, Delhi - DPCC",Delhi,28.684678,77.076574,12235303,pm25,µg/m³,0
+10486,"Mundka, Delhi - DPCC",Delhi,28.684678,77.076574,34769,so2,µg/m³,0
+6967,"Sion, Mumbai - MPCB",Mumbai,19.047,72.8746,20109,co,µg/m³,0
+6967,"Sion, Mumbai - MPCB",Mumbai,19.047,72.8746,20107,no2,µg/m³,0
+6967,"Sion, Mumbai - MPCB",Mumbai,19.047,72.8746,20098,o3,µg/m³,0
+6967,"Sion, Mumbai - MPCB",Mumbai,19.047,72.8746,20097,pm10,µg/m³,0
+6967,"Sion, Mumbai - MPCB",Mumbai,19.047,72.8746,20096,pm25,µg/m³,0
+6965,"Borivali East, Mumbai - MPCB",Mumbai,19.227474,72.864394,20075,co,µg/m³,0
+6965,"Borivali East, Mumbai - MPCB",Mumbai,19.227474,72.864394,20081,no2,µg/m³,0
+10485,"Narela, Delhi - DPCC",Delhi,28.822836,77.101981,34791,pm10,µg/m³,0
+10485,"Narela, Delhi - DPCC",Delhi,28.822836,77.101981,12235056,pm25,µg/m³,0
+10485,"Narela, Delhi - DPCC",Delhi,28.822836,77.101981,34789,so2,µg/m³,0
+10486,"Mundka, Delhi - DPCC",Delhi,28.684678,77.076574,34763,co,µg/m³,0
+6967,"Sion, Mumbai - MPCB",Mumbai,19.047,72.8746,20095,so2,µg/m³,0
+6973,"Jayanagar 5th Block, Bengaluru - KSPCB",Bengaluru,12.920984,77.584908,20173,co,µg/m³,0
+6973,"Jayanagar 5th Block, Bengaluru - KSPCB",Bengaluru,12.920984,77.584908,20175,no2,µg/m³,0
+6973,"Jayanagar 5th Block, Bengaluru - KSPCB",Bengaluru,12.920984,77.584908,12235265,o3,µg/m³,0
+6973,"Jayanagar 5th Block, Bengaluru - KSPCB",Bengaluru,12.920984,77.584908,12235266,pm10,µg/m³,0
+6973,"Jayanagar 5th Block, Bengaluru - KSPCB",Bengaluru,12.920984,77.584908,20162,pm25,µg/m³,0
+10486,"Mundka, Delhi - DPCC",Delhi,28.684678,77.076574,34764,no2,µg/m³,0
+10484,"Sri Aurobindo Marg, Delhi - DPCC",Delhi,28.531346,77.190156,34781,pm10,µg/m³,0
+10484,"Sri Aurobindo Marg, Delhi - DPCC",Delhi,28.531346,77.190156,34772,pm25,µg/m³,0
+10484,"Sri Aurobindo Marg, Delhi - DPCC",Delhi,28.531346,77.190156,34759,so2,µg/m³,0
+10485,"Narela, Delhi - DPCC",Delhi,28.822836,77.101981,34776,co,µg/m³,0
+6973,"Jayanagar 5th Block, Bengaluru - KSPCB",Bengaluru,12.920984,77.584908,20152,so2,µg/m³,0
+6974,"Bapuji Nagar, Bengaluru - KSPCB",Bengaluru,12.951913,77.539784,20153,co,µg/m³,0
+6974,"Bapuji Nagar, Bengaluru - KSPCB",Bengaluru,12.951913,77.539784,20169,no2,µg/m³,0
+6974,"Bapuji Nagar, Bengaluru - KSPCB",Bengaluru,12.951913,77.539784,12235238,o3,µg/m³,0
+6974,"Bapuji Nagar, Bengaluru - KSPCB",Bengaluru,12.951913,77.539784,20166,pm10,µg/m³,0
+10485,"Narela, Delhi - DPCC",Delhi,28.822836,77.101981,34760,no2,µg/m³,0
+10485,"Narela, Delhi - DPCC",Delhi,28.822836,77.101981,34792,o3,µg/m³,0
+8917,"Ashok Vihar, Delhi - DPCC",Delhi,28.695381,77.181665,12235001,pm10,µg/m³,0
+8917,"Ashok Vihar, Delhi - DPCC",Delhi,28.695381,77.181665,26032,pm25,µg/m³,0
+8917,"Ashok Vihar, Delhi - DPCC",Delhi,28.695381,77.181665,34786,so2,µg/m³,0
+10484,"Sri Aurobindo Marg, Delhi - DPCC",Delhi,28.531346,77.190156,34761,co,µg/m³,0
+10484,"Sri Aurobindo Marg, Delhi - DPCC",Delhi,28.531346,77.190156,34758,no2,µg/m³,0
+6974,"Bapuji Nagar, Bengaluru - KSPCB",Bengaluru,12.951913,77.539784,20165,pm25,µg/m³,0
+6974,"Bapuji Nagar, Bengaluru - KSPCB",Bengaluru,12.951913,77.539784,20164,so2,µg/m³,0
+6975,"Silk Board, Bengaluru - KSPCB",Bengaluru,12.917348,77.622813,20171,co,µg/m³,0
+6975,"Silk Board, Bengaluru - KSPCB",Bengaluru,12.917348,77.622813,20154,no2,µg/m³,0
+6975,"Silk Board, Bengaluru - KSPCB",Bengaluru,12.917348,77.622813,20168,o3,µg/m³,0
+10484,"Sri Aurobindo Marg, Delhi - DPCC",Delhi,28.531346,77.190156,34757,o3,µg/m³,0
+8915,"Wazirpur, Delhi - DPCC",Delhi,28.699793,77.165453,12235123,pm10,µg/m³,0
+8915,"Wazirpur, Delhi - DPCC",Delhi,28.699793,77.165453,34731,pm25,µg/m³,0
+8915,"Wazirpur, Delhi - DPCC",Delhi,28.699793,77.165453,34729,so2,µg/m³,0
+8917,"Ashok Vihar, Delhi - DPCC",Delhi,28.695381,77.181665,34762,co,µg/m³,0
+8917,"Ashok Vihar, Delhi - DPCC",Delhi,28.695381,77.181665,34768,no2,µg/m³,0
+8917,"Ashok Vihar, Delhi - DPCC",Delhi,28.695381,77.181665,12235000,o3,µg/m³,0
+6975,"Silk Board, Bengaluru - KSPCB",Bengaluru,12.917348,77.622813,20161,pm10,µg/m³,0
+6975,"Silk Board, Bengaluru - KSPCB",Bengaluru,12.917348,77.622813,12235285,pm25,µg/m³,0
+6975,"Silk Board, Bengaluru - KSPCB",Bengaluru,12.917348,77.622813,20176,so2,µg/m³,0
+6981,"Fort William, Kolkata - WBPCB",Kolkata,22.55664,88.342674,20228,co,µg/m³,0
+6981,"Fort William, Kolkata - WBPCB",Kolkata,22.55664,88.342674,20226,no2,µg/m³,0
+8475,"Sonia Vihar, Delhi - DPCC",Delhi,28.710508,77.249485,12235110,pm25,µg/m³,0
+6981,"Fort William, Kolkata - WBPCB",Kolkata,22.55664,88.342674,20214,o3,µg/m³,0
+6981,"Fort William, Kolkata - WBPCB",Kolkata,22.55664,88.342674,20211,pm10,µg/m³,0
+6981,"Fort William, Kolkata - WBPCB",Kolkata,22.55664,88.342674,12235878,pm25,µg/m³,0
+6981,"Fort William, Kolkata - WBPCB",Kolkata,22.55664,88.342674,20190,so2,µg/m³,0
+6983,"Hombegowda Nagar, Bengaluru - KSPCB",Bengaluru,12.938539,77.5901,20195,co,µg/m³,0
+8475,"Sonia Vihar, Delhi - DPCC",Delhi,28.710508,77.249485,35051,so2,µg/m³,0
+8558,Chennai,Chennai,13.08784,80.278475,5077812,pm25,µg/m³,0
+8915,"Wazirpur, Delhi - DPCC",Delhi,28.699793,77.165453,34728,co,µg/m³,0
+8915,"Wazirpur, Delhi - DPCC",Delhi,28.699793,77.165453,34732,no2,µg/m³,0
+8915,"Wazirpur, Delhi - DPCC",Delhi,28.699793,77.165453,34730,o3,µg/m³,0
+8472,"Bawana, Delhi - DPCC",Delhi,28.7762,77.051074,12235294,pm25,µg/m³,0
+6983,"Hombegowda Nagar, Bengaluru - KSPCB",Bengaluru,12.938539,77.5901,20196,no2,µg/m³,0
+6983,"Hombegowda Nagar, Bengaluru - KSPCB",Bengaluru,12.938539,77.5901,12235256,o3,µg/m³,0
+6983,"Hombegowda Nagar, Bengaluru - KSPCB",Bengaluru,12.938539,77.5901,20198,pm10,µg/m³,0
+6983,"Hombegowda Nagar, Bengaluru - KSPCB",Bengaluru,12.938539,77.5901,12235258,pm25,µg/m³,0
+6983,"Hombegowda Nagar, Bengaluru - KSPCB",Bengaluru,12.938539,77.5901,20200,so2,µg/m³,0
+8475,"Sonia Vihar, Delhi - DPCC",Delhi,28.710508,77.249485,24615,co,µg/m³,0
+8475,"Sonia Vihar, Delhi - DPCC",Delhi,28.710508,77.249485,35047,no2,µg/m³,0
+8475,"Sonia Vihar, Delhi - DPCC",Delhi,28.710508,77.249485,35048,o3,µg/m³,0
+8475,"Sonia Vihar, Delhi - DPCC",Delhi,28.710508,77.249485,35049,pm10,µg/m³,0
+6984,"Hebbal, Bengaluru - KSPCB",Bengaluru,13.029152,77.585901,20224,co,µg/m³,0
+6984,"Hebbal, Bengaluru - KSPCB",Bengaluru,13.029152,77.585901,20222,no2,µg/m³,0
+6984,"Hebbal, Bengaluru - KSPCB",Bengaluru,13.029152,77.585901,12235247,o3,µg/m³,0
+6984,"Hebbal, Bengaluru - KSPCB",Bengaluru,13.029152,77.585901,12235248,pm10,µg/m³,0
+6984,"Hebbal, Bengaluru - KSPCB",Bengaluru,13.029152,77.585901,12235249,pm25,µg/m³,0
+6984,"Hebbal, Bengaluru - KSPCB",Bengaluru,13.029152,77.585901,20210,so2,µg/m³,0
+8472,"Bawana, Delhi - DPCC",Delhi,28.7762,77.051074,36395,co,µg/m³,0
+8472,"Bawana, Delhi - DPCC",Delhi,28.7762,77.051074,36394,no2,µg/m³,0
+8472,"Bawana, Delhi - DPCC",Delhi,28.7762,77.051074,12235292,o3,µg/m³,0
+8472,"Bawana, Delhi - DPCC",Delhi,28.7762,77.051074,24602,pm10,µg/m³,0
+8365,"Nehru Nagar, Delhi - DPCC",Delhi,28.56789,77.250515,35017,o3,µg/m³,0
+8365,"Nehru Nagar, Delhi - DPCC",Delhi,28.56789,77.250515,12235082,pm10,µg/m³,0
+8365,"Nehru Nagar, Delhi - DPCC",Delhi,28.56789,77.250515,12235083,pm25,µg/m³,0
+8365,"Nehru Nagar, Delhi - DPCC",Delhi,28.56789,77.250515,35009,so2,µg/m³,0
+6987,"Vile Parle West, Mumbai - MPCB",Mumbai,19.10861,72.83622,20236,co,µg/m³,0
+6987,"Vile Parle West, Mumbai - MPCB",Mumbai,19.10861,72.83622,20239,no2,µg/m³,0
+6987,"Vile Parle West, Mumbai - MPCB",Mumbai,19.10861,72.83622,12235849,o3,µg/m³,0
+6987,"Vile Parle West, Mumbai - MPCB",Mumbai,19.10861,72.83622,20243,pm10,µg/m³,0
+6987,"Vile Parle West, Mumbai - MPCB",Mumbai,19.10861,72.83622,12235851,pm25,µg/m³,0
+6987,"Vile Parle West, Mumbai - MPCB",Mumbai,19.10861,72.83622,20254,so2,µg/m³,0
+8239,"Okhla Phase-2, Delhi - DPCC",Delhi,28.530785,77.271255,24011,pm10,µg/m³,0
+8239,"Okhla Phase-2, Delhi - DPCC",Delhi,28.530785,77.271255,24007,pm25,µg/m³,0
+8239,"Okhla Phase-2, Delhi - DPCC",Delhi,28.530785,77.271255,24009,so2,µg/m³,0
+7044,"R K Puram, Delhi - DPCC",Delhi,28.563262000000005,77.186937,20410,co,µg/m³,0
+7044,"R K Puram, Delhi - DPCC",Delhi,28.563262000000005,77.186937,20409,no2,µg/m³,0
+7044,"R K Puram, Delhi - DPCC",Delhi,28.563262000000005,77.186937,20406,o3,µg/m³,0
+7044,"R K Puram, Delhi - DPCC",Delhi,28.563262000000005,77.186937,20407,pm10,µg/m³,0
+7044,"R K Puram, Delhi - DPCC",Delhi,28.563262000000005,77.186937,20411,pm25,µg/m³,0
+7044,"R K Puram, Delhi - DPCC",Delhi,28.563262000000005,77.186937,20408,so2,µg/m³,0
+7140,"Gomti Nagar, Lucknow - UPPCB",Lucknow,26.86812,81.005119,20574,co,µg/m³,0
+7140,"Gomti Nagar, Lucknow - UPPCB",Lucknow,26.86812,81.005119,36690,no2,µg/m³,0
+7140,"Gomti Nagar, Lucknow - UPPCB",Lucknow,26.86812,81.005119,36688,o3,µg/m³,0
+8365,"Nehru Nagar, Delhi - DPCC",Delhi,28.56789,77.250515,34799,co,µg/m³,0
+8365,"Nehru Nagar, Delhi - DPCC",Delhi,28.56789,77.250515,24303,no2,µg/m³,0
+8235,"Jahangirpuri, Delhi - DPCC",Delhi,28.73282,77.170633,12235029,pm25,µg/m³,0
+8235,"Jahangirpuri, Delhi - DPCC",Delhi,28.73282,77.170633,23998,so2,µg/m³,0
+8239,"Okhla Phase-2, Delhi - DPCC",Delhi,28.530785,77.271255,24010,co,µg/m³,0
+7140,"Gomti Nagar, Lucknow - UPPCB",Lucknow,26.86812,81.005119,1348528,pm10,µg/m³,0
+7140,"Gomti Nagar, Lucknow - UPPCB",Lucknow,26.86812,81.005119,36687,pm25,µg/m³,0
+7140,"Gomti Nagar, Lucknow - UPPCB",Lucknow,26.86812,81.005119,36671,so2,µg/m³,0
+7434,"East Arjun Nagar, Delhi - CPCB",Delhi,28.655601699999995,77.2859318,21624,no2,µg/m³,0
+7434,"East Arjun Nagar, Delhi - CPCB",Delhi,28.655601699999995,77.2859318,21625,o3,µg/m³,0
+7434,"East Arjun Nagar, Delhi - CPCB",Delhi,28.655601699999995,77.2859318,21623,so2,µg/m³,0
+7495,"DRM Office Danapur, Patna - BSPCB",Patna,25.586562,85.043586,21729,co,µg/m³,0
+8239,"Okhla Phase-2, Delhi - DPCC",Delhi,28.530785,77.271255,24008,no2,µg/m³,0
+8239,"Okhla Phase-2, Delhi - DPCC",Delhi,28.530785,77.271255,12235072,o3,µg/m³,0
+8172,US Diplomatic Post: Kolkata,Kolkata,22.56263,88.36304,5077640,pm25,µg/m³,0
+8235,"Jahangirpuri, Delhi - DPCC",Delhi,28.73282,77.170633,23993,co,µg/m³,0
+8235,"Jahangirpuri, Delhi - DPCC",Delhi,28.73282,77.170633,23994,no2,µg/m³,0
+7495,"DRM Office Danapur, Patna - BSPCB",Patna,25.586562,85.043586,21730,no2,µg/m³,0
+7495,"DRM Office Danapur, Patna - BSPCB",Patna,25.586562,85.043586,21731,o3,µg/m³,0
+7495,"DRM Office Danapur, Patna - BSPCB",Patna,25.586562,85.043586,12236190,pm10,µg/m³,0
+7495,"DRM Office Danapur, Patna - BSPCB",Patna,25.586562,85.043586,21733,pm25,µg/m³,0
+7495,"DRM Office Danapur, Patna - BSPCB",Patna,25.586562,85.043586,21734,so2,µg/m³,0
+8235,"Jahangirpuri, Delhi - DPCC",Delhi,28.73282,77.170633,12235027,o3,µg/m³,0
+8235,"Jahangirpuri, Delhi - DPCC",Delhi,28.73282,77.170633,23996,pm10,µg/m³,0
+6254664,"NSUT Jaffarpur, Delhi - DPCC",Delhi,28.594004,76.909423,15554714,o3,µg/m³,0
+6254664,"NSUT Jaffarpur, Delhi - DPCC",Delhi,28.594004,76.909423,15554715,pm10,µg/m³,0
+6254664,"NSUT Jaffarpur, Delhi - DPCC",Delhi,28.594004,76.909423,15554716,pm25,µg/m³,0
+6254665,"Commonwealth Sports Complex, Delhi - DPCC",Delhi,28.615828,77.271992,15554726,o3,µg/m³,0
+6254665,"Commonwealth Sports Complex, Delhi - DPCC",Delhi,28.615828,77.271992,15554727,pm10,µg/m³,0
+6254665,"Commonwealth Sports Complex, Delhi - DPCC",Delhi,28.615828,77.271992,15554728,pm25,µg/m³,0
+50,"Punjabi Bagh, Delhi - DPCC",Delhi,28.674045,77.131023,397,so2,µg/m³,0
+103,"Income Tax Office, Delhi - CPCB",Delhi,28.623499999999996,77.2494,169,co,µg/m³,0
+103,"Income Tax Office, Delhi - CPCB",Delhi,28.623499999999996,77.2494,13863,no2,µg/m³,0
+103,"Income Tax Office, Delhi - CPCB",Delhi,28.623499999999996,77.2494,168,o3,µg/m³,0
+103,"Income Tax Office, Delhi - CPCB",Delhi,28.623499999999996,77.2494,13862,pm10,µg/m³,0
+103,"Income Tax Office, Delhi - CPCB",Delhi,28.623499999999996,77.2494,13861,pm25,µg/m³,0
+235,"Anand Vihar, New Delhi - DPCC",Delhi,28.646835,77.316032,385,co,µg/m³,0
+235,"Anand Vihar, New Delhi - DPCC",Delhi,28.646835,77.316032,382,no2,µg/m³,0
+6254666,"IGNOU_Maidan Garhi, Delhi - DPCC",Delhi,28.493624,77.201159,15554738,o3,µg/m³,0
+50,"Punjabi Bagh, Delhi - DPCC",Delhi,28.674045,77.131023,12234794,o3,µg/m³,0
+50,"Punjabi Bagh, Delhi - DPCC",Delhi,28.674045,77.131023,400,no2,µg/m³,0
+50,"Punjabi Bagh, Delhi - DPCC",Delhi,28.674045,77.131023,398,co,µg/m³,0
+17,"R K Puram, Delhi - DPCC",Delhi,28.563262,77.186937,393,so2,µg/m³,0
+6257818,"Cantonment Area, Delhi - DPCC",Delhi,28.594169,77.1251,15578293,so2,ppb,1
+6267807,"Srinivas Nagar Colony, Machilipatnam - APPCB",Patna,16.186555,81.13219,15653086,co,ppb,1
+6267807,"Srinivas Nagar Colony, Machilipatnam - APPCB",Patna,16.186555,81.13219,15653088,no2,ppb,1
+6267807,"Srinivas Nagar Colony, Machilipatnam - APPCB",Patna,16.186555,81.13219,15653094,so2,ppb,1
+8472,"Bawana, Delhi - DPCC",Delhi,28.7762,77.051074,12235296,so2,ppb,1
+6960,"Patparganj, Delhi - DPCC",Delhi,28.623748,77.287205,12235096,co,ppb,1
+6356,"Pusa, Delhi - DPCC",Delhi,28.639645,77.146262,12235323,so2,ppb,1
+6356,"Pusa, Delhi - DPCC",Delhi,28.639645,77.146262,12235316,co,ppb,1
+6356,"Pusa, Delhi - DPCC",Delhi,28.639645,77.146262,12235318,no2,ppb,1
+5650,"IGI Airport (T3), Delhi - IMD",Delhi,28.5627763,77.1180053,12234691,co,ppb,1
+5650,"IGI Airport (T3), Delhi - IMD",Delhi,28.5627763,77.1180053,12234693,no2,ppb,1
+12046,"Perungudi, Chennai - TNPCB",Chennai,12.9533,80.2357,12236285,co,ppb,1
+12046,"Perungudi, Chennai - TNPCB",Chennai,12.9533,80.2357,12236287,no2,ppb,1
+12046,"Perungudi, Chennai - TNPCB",Chennai,12.9533,80.2357,12236292,so2,ppb,1
+3409312,"BWSSB Kadabesanahalli, Bengaluru - CPCB",Bengaluru,12.9352049,77.6814488,14406990,co,ppb,1
+3409312,"BWSSB Kadabesanahalli, Bengaluru - CPCB",Bengaluru,12.9352049,77.6814488,14406992,no2,ppb,1
+3409312,"BWSSB Kadabesanahalli, Bengaluru - CPCB",Bengaluru,12.9352049,77.6814488,14406996,so2,ppb,1
+3409318,"Central School, Lucknow - CPCB",Lucknow,26.8821003,80.9302753,12235473,co,ppb,1
+3409318,"Central School, Lucknow - CPCB",Lucknow,26.8821003,80.9302753,12235475,no2,ppb,1
+3409318,"Central School, Lucknow - CPCB",Lucknow,26.8821003,80.9302753,12235480,so2,ppb,1
+3409319,"Alandur Bus Depot, Chennai - CPCB",Chennai,12.9099161,80.1076538,12235544,co,ppb,1
+3409319,"Alandur Bus Depot, Chennai - CPCB",Chennai,12.9099161,80.1076538,12235546,no2,ppb,1
+3409319,"Alandur Bus Depot, Chennai - CPCB",Chennai,12.9099161,80.1076538,12235550,so2,ppb,1
+3409320,"Rabindra Bharati University, Kolkata - WBPCB",Kolkata,22.627875,88.3804,12235560,co,ppb,1
+3409320,"Rabindra Bharati University, Kolkata - WBPCB",Kolkata,22.627875,88.3804,12235562,no2,ppb,1
+3409320,"Rabindra Bharati University, Kolkata - WBPCB",Kolkata,22.627875,88.3804,12235567,so2,ppb,1
+3409323,"Worli, Mumbai - MPCB",Mumbai,18.9936162,72.8128113,12235909,co,ppb,1
+3409323,"Worli, Mumbai - MPCB",Mumbai,18.9936162,72.8128113,12235911,no2,ppb,1
+3409323,"Worli, Mumbai - MPCB",Mumbai,18.9936162,72.8128113,12235916,so2,ppb,1
+3409328,"Bandra Kurla Complex, Mumbai - IITM",Mumbai,19.0627,72.84614,12708241,co,ppb,1
+3409328,"Bandra Kurla Complex, Mumbai - IITM",Mumbai,19.0627,72.84614,12708243,no2,ppb,1
+3409328,"Bandra Kurla Complex, Mumbai - IITM",Mumbai,19.0627,72.84614,12708248,so2,ppb,1
+3409329,"Deonar, Mumbai - IITM",Mumbai,19.04946,72.923,12236380,co,ppb,1
+3409329,"Deonar, Mumbai - IITM",Mumbai,19.04946,72.923,12236382,no2,ppb,1
+3409329,"Deonar, Mumbai - IITM",Mumbai,19.04946,72.923,12236387,so2,ppb,1
+3409330,"Sector-19A Nerul, Navi Mumbai - IITM",Mumbai,19.044,73.0325,14230326,no2,ppb,1
+3409385,"RVCE-Mailasandra, Bengaluru - KSPCB",Bengaluru,12.921418,77.502466,12237568,co,ppb,1
+3409385,"RVCE-Mailasandra, Bengaluru - KSPCB",Bengaluru,12.921418,77.502466,12237570,no2,ppb,1
+3409385,"RVCE-Mailasandra, Bengaluru - KSPCB",Bengaluru,12.921418,77.502466,12237575,so2,ppb,1
+3409388,"Kasturi Nagar, Bengaluru - KSPCB",Bengaluru,13.003872,77.664217,12237595,co,ppb,1
+3409388,"Kasturi Nagar, Bengaluru - KSPCB",Bengaluru,13.003872,77.664217,12237597,no2,ppb,1
+5586,"Sirifort, Delhi - CPCB",Delhi,28.5504249,77.2159377,12234771,so2,ppb,1
+3409388,"Kasturi Nagar, Bengaluru - KSPCB",Bengaluru,13.003872,77.664217,12237602,so2,ppb,1
+3409393,"Shivapura_Peenya, Bengaluru - KSPCB",Bengaluru,13.0246342,77.5080115,12237640,co,ppb,1
+3409393,"Shivapura_Peenya, Bengaluru - KSPCB",Bengaluru,13.0246342,77.5080115,12237642,no2,ppb,1
+3409393,"Shivapura_Peenya, Bengaluru - KSPCB",Bengaluru,13.0246342,77.5080115,12237647,so2,ppb,1
+3409434,"Jigani, Bengaluru - KSPCB",Bengaluru,12.7816279,77.6299145,12243003,co,ppb,1
+3409434,"Jigani, Bengaluru - KSPCB",Bengaluru,12.7816279,77.6299145,12243005,no2,ppb,1
+3409434,"Jigani, Bengaluru - KSPCB",Bengaluru,12.7816279,77.6299145,12243010,so2,ppb,1
+5586,"Sirifort, Delhi - CPCB",Delhi,28.5504249,77.2159377,12234764,co,ppb,1
+5586,"Sirifort, Delhi - CPCB",Delhi,28.5504249,77.2159377,12234766,no2,ppb,1
+3409471,"Sector-2E Kalamboli, Navi Mumbai - MPCB",Mumbai,19.02579,73.10297,12238271,co,ppb,1
+3409471,"Sector-2E Kalamboli, Navi Mumbai - MPCB",Mumbai,19.02579,73.10297,12238273,no2,ppb,1
+3409471,"Sector-2E Kalamboli, Navi Mumbai - MPCB",Mumbai,19.02579,73.10297,12238278,so2,ppb,1
+3409475,"Tondare-Taloja, Navi Mumbai - MPCB",Mumbai,19.063,73.1209,12238307,co,ppb,1
+3409475,"Tondare-Taloja, Navi Mumbai - MPCB",Mumbai,19.063,73.1209,12238309,no2,ppb,1
+3409475,"Tondare-Taloja, Navi Mumbai - MPCB",Mumbai,19.063,73.1209,12238314,so2,ppb,1
+3409477,"Kopripada-Vashi, Navi Mumbai - MPCB",Mumbai,19.090337,73.014232,12238325,co,ppb,1
+3409477,"Kopripada-Vashi, Navi Mumbai - MPCB",Mumbai,19.090337,73.014232,12238327,no2,ppb,1
+3409477,"Kopripada-Vashi, Navi Mumbai - MPCB",Mumbai,19.090337,73.014232,12238332,so2,ppb,1
+3409479,"Mindspace-Malad West, Mumbai - MPCB",Mumbai,19.1878657,72.8304069,12238343,co,ppb,1
+3409479,"Mindspace-Malad West, Mumbai - MPCB",Mumbai,19.1878657,72.8304069,12238345,no2,ppb,1
+3409479,"Mindspace-Malad West, Mumbai - MPCB",Mumbai,19.1878657,72.8304069,12238350,so2,ppb,1
+3409482,"Bandra Kurla Complex, Mumbai - MPCB",Mumbai,19.065931,72.862131,12238370,co,ppb,1
+3409482,"Bandra Kurla Complex, Mumbai - MPCB",Mumbai,19.065931,72.862131,12238372,no2,ppb,1
+3409482,"Bandra Kurla Complex, Mumbai - MPCB",Mumbai,19.065931,72.862131,12238377,so2,ppb,1
+3409483,"Chembur, Mumbai - MPCB",Mumbai,19.0364585,72.8954371,12238379,co,ppb,1
+3409483,"Chembur, Mumbai - MPCB",Mumbai,19.0364585,72.8954371,12238381,no2,ppb,1
+3409483,"Chembur, Mumbai - MPCB",Mumbai,19.0364585,72.8954371,12238386,so2,ppb,1
+3409486,"Kherwadi_Bandra East, Mumbai - MPCB",Mumbai,19.0632143,72.8456324,12238406,co,ppb,1
+3409486,"Kherwadi_Bandra East, Mumbai - MPCB",Mumbai,19.0632143,72.8456324,12238408,no2,ppb,1
+3409486,"Kherwadi_Bandra East, Mumbai - MPCB",Mumbai,19.0632143,72.8456324,12238413,so2,ppb,1
+3409487,"Sanpada, Navi Mumbai - MPCB",Mumbai,19.0575752,73.0151367,12243944,co,ppb,1
+3409487,"Sanpada, Navi Mumbai - MPCB",Mumbai,19.0575752,73.0151367,12243946,no2,ppb,1
+3409487,"Sanpada, Navi Mumbai - MPCB",Mumbai,19.0575752,73.0151367,12243951,so2,ppb,1
+3409496,"New Moti Bagh, Delhi - MHUA",Delhi,28.57834,77.184,15646331,co,ppb,1
+3409496,"New Moti Bagh, Delhi - MHUA",Delhi,28.57834,77.184,15646333,no2,ppb,1
+3409510,"Byculla, Mumbai - BMC",Mumbai,18.9767,72.838,12238562,co,ppb,1
+3409510,"Byculla, Mumbai - BMC",Mumbai,18.9767,72.838,12238564,no2,ppb,1
+3409510,"Byculla, Mumbai - BMC",Mumbai,18.9767,72.838,12238569,so2,ppb,1
+3409511,"Shivaji Nagar, Mumbai - BMC",Mumbai,19.060498,72.923356,12238571,co,ppb,1
+3409511,"Shivaji Nagar, Mumbai - BMC",Mumbai,19.060498,72.923356,12238573,no2,ppb,1
+3409511,"Shivaji Nagar, Mumbai - BMC",Mumbai,19.060498,72.923356,12238578,so2,ppb,1
+3409512,"Kandivali West, Mumbai - BMC",Mumbai,19.215859,72.831718,12238580,co,ppb,1
+3409512,"Kandivali West, Mumbai - BMC",Mumbai,19.215859,72.831718,12238582,no2,ppb,1
+3409512,"Kandivali West, Mumbai - BMC",Mumbai,19.215859,72.831718,12238587,so2,ppb,1
+3409513,"Sewri, Mumbai - BMC",Mumbai,19.000084,72.85673,12238589,co,ppb,1
+3409513,"Sewri, Mumbai - BMC",Mumbai,19.000084,72.85673,12238591,no2,ppb,1
+3409513,"Sewri, Mumbai - BMC",Mumbai,19.000084,72.85673,12238596,so2,ppb,1
+3409514,"Ghatkopar, Mumbai - BMC",Mumbai,19.083694,72.920967,12238598,co,ppb,1
+3409514,"Ghatkopar, Mumbai - BMC",Mumbai,19.083694,72.920967,12238600,no2,ppb,1
+3409514,"Ghatkopar, Mumbai - BMC",Mumbai,19.083694,72.920967,12238605,so2,ppb,1
+6148686,"IIT Delhi, Delhi - IITM",Delhi,28.54246,77.191651,14769468,co,ppb,1
+6148686,"IIT Delhi, Delhi - IITM",Delhi,28.54246,77.191651,14769470,no2,ppb,1
+6254594,"Talkatora Garden, Delhi - DPCC",Delhi,28.62181,77.1944633,15554202,co,ppb,1
+6254594,"Talkatora Garden, Delhi - DPCC",Delhi,28.62181,77.1944633,15554204,no2,ppb,1
+6254594,"Talkatora Garden, Delhi - DPCC",Delhi,28.62181,77.1944633,15554210,so2,ppb,1
+6254663,"JNU, Delhi - DPCC",Delhi,28.540721,77.168544,15554698,co,ppb,1
+6254663,"JNU, Delhi - DPCC",Delhi,28.540721,77.168544,15554700,no2,ppb,1
+6254663,"JNU, Delhi - DPCC",Delhi,28.540721,77.168544,15554706,so2,ppb,1
+6254664,"NSUT Jaffarpur, Delhi - DPCC",Delhi,28.594004,76.909423,15554710,co,ppb,1
+6254664,"NSUT Jaffarpur, Delhi - DPCC",Delhi,28.594004,76.909423,15554712,no2,ppb,1
+6254664,"NSUT Jaffarpur, Delhi - DPCC",Delhi,28.594004,76.909423,15554718,so2,ppb,1
+6254665,"Commonwealth Sports Complex, Delhi - DPCC",Delhi,28.615828,77.271992,15554722,co,ppb,1
+6254665,"Commonwealth Sports Complex, Delhi - DPCC",Delhi,28.615828,77.271992,15554724,no2,ppb,1
+6254665,"Commonwealth Sports Complex, Delhi - DPCC",Delhi,28.615828,77.271992,15554730,so2,ppb,1
+6254666,"IGNOU_Maidan Garhi, Delhi - DPCC",Delhi,28.493624,77.201159,15554734,co,ppb,1
+6254666,"IGNOU_Maidan Garhi, Delhi - DPCC",Delhi,28.493624,77.201159,15554736,no2,ppb,1
+6254666,"IGNOU_Maidan Garhi, Delhi - DPCC",Delhi,28.493624,77.201159,15554742,so2,ppb,1
+6257818,"Cantonment Area, Delhi - DPCC",Delhi,28.594169,77.1251,15578285,co,ppb,1
+6257818,"Cantonment Area, Delhi - DPCC",Delhi,28.594169,77.1251,15578287,no2,ppb,1
