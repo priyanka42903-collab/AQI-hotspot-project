@@ -119,13 +119,56 @@ Benzene, Toluene, Xylene) remain available in the intermediate `merged_historica
 dataframe for historical-only analysis if needed later, but were not carried into the
 unified master file.
 
-## Known Limitations (summary)
-- No date overlap between historical (2015-2020) and recent (2025-2026) tracks - any
-  trend analysis across the full period must account for this gap explicitly.
-- Historical AQI missingness is uneven across cities (worst: Mumbai, Patna) due to
-  staggered real-world station installation dates, not random data loss.
-- Historical and recent AQI come from two different computation paths (Kaggle's own vs.
-  our CPCB implementation) and have not been cross-validated against each other.
-- Patna's NO2/SO2/CO (OpenAQ track) and Mumbai's Toluene/Xylene (Kaggle track) are
-  excluded entirely due to persistently high missingness even within their active
-  monitoring windows.
+## Corrections made after the first cleaning pass
+
+- **CPCB gap-band bug.** The first AQI function skipped concentrations that fall in the small gaps between CPCB bands (for example PM2.5 of 30.5). It affected 58 of 2,566 recent rows (mean change 24 points, max 147). Fixed in `src/aqi_calculator.py`.
+- **Recent-track AQI rule.** A day needs at least one pollutant and a PM value (PM2.5 or PM10). 5 Bengaluru days (2025-11-29 to 2025-12-10) had only O3 and have no AQI. 3 Delhi days with only PM2.5 are kept.
+- **Historical CO cleaning.** 213 historical CO readings above 10 mg/m3 (Lucknow 73, Bengaluru 65, Delhi 65, Chennai 10) were set to NaN as implausible. Mumbai's historical CO median is 0.00, which suggests zeros stand in for missing values. This was not corrected.
+- **Out-of-scale AQI.** 88 Kaggle AQI values exceed 500. They are kept and counted as Severe.
+
+## Dominant pollutant
+
+`dominant_pollutant` is the pollutant with the highest CPCB sub-index among PM2.5, PM10, NO2, SO2, CO and O3. Historical rows need at least 3 pollutants including a PM value; recent rows need at least 1 including a PM value. Kaggle's own AQI may use pollutants outside these six, so this is "dominant among six", not the official driver. Lucknow has no historical PM10. PM10 leads in every recent city while PM2.5 leads in several historical ones. That shift looks like a measurement difference between OpenAQ and CPCB stations, not a change in the air.
+
+## Cross-check: our AQI vs Kaggle's
+
+On 10,674 historical days where both exist: correlation 0.944, mean difference (ours minus Kaggle's) -11.5, mean absolute difference 26.9, and about 30% of days within 10 points. The two follow the same pattern but differ in level, so no chart compares a historical value directly with a recent one.
+
+## SQL analysis
+
+The master table is loaded into SQLite (`db/aqi.db`, not committed, regenerate it from the CSV) and queried from `notebooks/03_sql_queries.ipynb`. Dates are stored as text, so month and year use `strftime`. Each query is saved in `sql/`.
+
+| File | Question | Main result |
+|---|---|---|
+| `01_worst_months.sql` | Worst 5 months per city (months with 20+ days of AQI) | Delhi's worst is Nov 2016 (474.8). Delhi, Lucknow, Patna and Kolkata peak Oct-Feb. Bengaluru and Chennai have no winter spike. Only Chennai (Dec 2025) and Mumbai (Oct and Nov 2025) have recent months in their top 5. |
+| `02_days_above_300.sql` | Days above AQI 300, per city and year | Delhi 50.1% of days in 2015, 26.0% in 2019. Lucknow peaks near 42% (2016-17). Bengaluru, Mumbai and Chennai rarely exceed 300. 2020, 2025 and 2026 are partial years. |
+| `03_winter_summer_ratio.sql` | Average AQI, winter (Nov-Feb) vs summer (Mar-Jun) | Kolkata 2.92, Patna 2.00, Lucknow 1.77, Mumbai 1.68, Delhi 1.59, Chennai 1.18, Bengaluru 1.18. |
+| `04_days_by_category.sql` | Days per CPCB category | Delhi 61.0% Poor or worse. Bengaluru 66.3% Good or Satisfactory. |
+| `05_rain_vs_dry_winter.sql` | AQI on rainy (2.5 mm or more) vs dry (under 0.1 mm) winter days | Lower on rainy days in all 7 cities. Reliable only where there are 20+ rainy days: Chennai 94.9 vs 138.4, Bengaluru 91.0 vs 109.1, Delhi 301.7 vs 358.8, Lucknow 262.8 vs 313.7. |
+
+Caveats: Kolkata's ratio rests on about 40 months of data. Patna's 2015 and 2017 percentages in Query 2 come from only 81 and 144 days. Rain is associated with lower AQI, not shown to cause it. Wind and temperature move with rain.
+
+## Power BI dashboard
+
+Files: `dashboard/aqi_dashboard.pbix`, `dashboard/aqi_theme.json`, data from `data/dashboard/aqi_dashboard.csv` (15,213 rows; drops the 70 rows after 2026-07-31 and adds `aqi_category`, `track`, `month_name`).
+
+Page: 3 slicers (city, period, season), 4 KPI cards, monthly trend, city-by-month heatmap, category mix, dominant pollutant by period, winter vs summer, rain vs dry, and a footer with caveats.
+
+Design decisions:
+- The trend line uses a continuous date axis with one line per period, so the 2020-2025 gap shows as empty space.
+- Dominant pollutant uses small multiples to keep the two periods apart.
+- The rain chart blanks any bar with fewer than 20 days.
+- Heatmap and category colours use the CPCB bands.
+
+Measures: `Average AQI`, `Pct Poor or Worse` (days above 200 divided by days with AQI), `Days Above 300`, `Days With AQI`, `Dominant Share`.
+
+Validation against SQL: with no filter the cards show 13,165 days with AQI, 2,124 days above 300 and 28.2% Poor or worse. With Delhi selected they show 2,364 days, 866 days above 300 (the sum of Query 2's Delhi rows) and 61.2% Poor or worse (Query 4 gives 61.0% because it includes 10 extra days after the dashboard cut-off).
+
+## Known limitations (summary)
+
+- No data between July 2020 and July 2025, so cross-period trends need care.
+- Historical AQI is Kaggle's. Recent AQI is our CPCB calculation, about 11 points lower on average (correlation 0.94). Compare within each period.
+- Historical AQI missingness is uneven (Mumbai 61%, Patna 22%) because stations started at different times.
+- Kolkata and Mumbai start in 2018.
+- Excluded: Patna's recent NO2, SO2 and CO; Mumbai's Toluene and Xylene; Lucknow's historical PM10.
+- Dominant pollutant is among six pollutants only, and OpenAQ and CPCB shares are not comparable.

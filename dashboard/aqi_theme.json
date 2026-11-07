@@ -1,0 +1,47 @@
+{
+  "name": "AQI Dashboard",
+  "dataColors": [
+    "#1F4E79",
+    "#E15759",
+    "#F28E2B",
+    "#59A14F",
+    "#76B7B2",
+    "#EDC948",
+    "#B07AA1"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#252423",
+  "tableAccent": "#1F4E79",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontSize": 11,
+            "fontColor": {
+              "solid": {
+                "color": "#252423"
+              }
+            }
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#E1DFDD"
+              }
+            }
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ]
+      }
+    }
+  }
+}
