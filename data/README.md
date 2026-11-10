@@ -172,3 +172,9 @@ Validation against SQL: with no filter the cards show 13,165 days with AQI, 2,12
 - Kolkata and Mumbai start in 2018.
 - Excluded: Patna's recent NO2, SO2 and CO; Mumbai's Toluene and Xylene; Lucknow's historical PM10.
 - Dominant pollutant is among six pollutants only, and OpenAQ and CPCB shares are not comparable.
+
+## Station Coverage Limitation
+- Stations were selected by city name, so neighbouring towns (Noida, Ghaziabad, Thane and others) and some real city stations without the city name (for example Delhi’s IGI Airport and Civil Lines) are not included. 
+- 27% to 71% of selected stations per city were also dropped by the dead-sensor step, which has not been verified. 
+- Patna’s recent figures rest on a single PM station.
+

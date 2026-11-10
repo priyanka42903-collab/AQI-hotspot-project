@@ -50,7 +50,15 @@ There is no data between July 2020 and July 2025. Details, cleaning rules and co
 - **The two AQI sources differ.** Historical AQI is Kaggle's. Recent AQI is calculated here. On 10,674 overlapping historical days our calculation is about 11 points lower on average (correlation 0.94, typical gap about 27 points). Compare within each period, not across.
 - **Kolkata and Mumbai start in 2018**, so their trends are thin.
 - **Dominant pollutant** is the highest CPCB sub-index among six pollutants, not the official driver.
-- Lucknow has no 2015-20 PM10, and Patna's recent NO2, SO2 and CO were excluded for missing data.
+- Lucknow has no 2015-20 PM10.
+
+
+## Correction
+- Station mislabelling (Patna). 
+- Stations were assigned to cities by matching the city name inside the station name, so “Visakhapatnam” and “Machilipatnam” stations were tagged Patna. 
+- Two stations in Andhra Pradesh (location IDs 5628 and 6267807, 895 and 1,125 km away) were removed from the recent track. 
+- Patna’s recent NO2, SO2 and CO came only from the Machilipatnam station and are now absent. 
+- Patna’s recent AQI (mean 106.9 before, 81.2 after) now rests on one PM station, Rajbansi Nagar, plus an O3 reading from Samanpura.
 
 ## Reproduce
 
