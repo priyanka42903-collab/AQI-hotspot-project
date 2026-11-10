@@ -60,3 +60,20 @@ python -m venv .venv
 pip install pandas numpy matplotlib notebook python-dotenv requests
 ```
 Put your OpenAQ key in `.env` as `OPENAQ_API_KEY=...` (not committed), then run `notebooks/data_cleaning.ipynb`, `02_analysis.ipynb` and `03_sql_queries.ipynb` in order, and open the dashboard in Power BI Desktop.
+
+## Forecast: next-day AQI (Delhi and 6 other cities)
+
+**Setup.** Historical Kaggle AQI only (2015 to Jul 2020). The target is each day's AQI, predicted from data up to the previous day: the last 7 days, their 7-day mean, month, weekend flag and city. Train on 2015-2019, test on Jan to Jul 2020 (183 days per city, 1,281 rows). Features use only past days; I checked that `lag_1` equals the previous day's AQI.
+
+| Method | RMSE (all) | MAE (all) | RMSE (Delhi) | MAE (Delhi) |
+|---|---|---|---|---|
+| Persistence ("tomorrow = today") | 31.1 | 20.0 | 39.9 | 29.6 |
+| 7-day mean | 37.4 | 24.8 | 50.2 | 36.9 |
+| Random Forest (level) | 29.6 | 19.7 | 37.9 | 28.3 |
+| Random Forest (yesterday + predicted change) | 29.2 | 19.5 | 36.9 | 27.8 |
+
+![Delhi forecast](reports/figures/04_delhi_forecast.png)
+
+**Result.** The Random Forest improves on the persistence baseline by about 3% in MAE and 6% in RMSE, but the gain is within noise: a block bootstrap over test days gives a 95% interval of -0.48 to +1.52 AQI points for the MAE gain, and the model wins on 55% of days. Yesterday's AQI carries about 92% of the model's feature importance. At a one-day horizon, yesterday's value is hard to beat.
+
+**Limits.** One test period of 183 days that includes the 2020 COVID lockdown, which the model never saw. Kolkata and Mumbai trained on about 550 days each. Forecasts are for the historical Kaggle AQI only; the 2025-26 data uses a different AQI method after a five-year gap. Weather and festival features were not used.

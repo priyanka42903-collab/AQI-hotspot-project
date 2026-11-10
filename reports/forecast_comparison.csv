@@ -1,0 +1,5 @@
+method,RMSE_all,MAE_all,RMSE_Delhi,MAE_Delhi
+Persistence (yesterday),31.1,20.0,39.9,29.6
+7-day mean,37.4,24.8,50.2,36.9
+"RF, predicts level",29.6,19.7,37.9,28.3
+"RF, predicts change",29.2,19.5,36.9,27.8
