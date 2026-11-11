@@ -82,6 +82,37 @@ Put your OpenAQ key in `.env` as `OPENAQ_API_KEY=...` (not committed), then run 
 
 ![Delhi forecast](reports/figures/04_delhi_forecast.png)
 
-**Result.** The Random Forest improves on the persistence baseline by about 3% in MAE and 6% in RMSE, but the gain is within noise: a block bootstrap over test days gives a 95% interval of -0.48 to +1.52 AQI points for the MAE gain, and the model wins on 55% of days. Yesterday's AQI carries about 92% of the model's feature importance. At a one-day horizon, yesterday's value is hard to beat.
+**Result.** 
+- The Random Forest improves on the persistence baseline by about 3% in MAE and 6% in RMSE, but the gain is within noise: a block bootstrap over test days gives a 95% interval of -0.48 to +1.52 AQI points for the MAE gain, and the model wins on 55% of days. 
+- Yesterday's AQI carries about 92% of the model's feature importance. 
+- At a one-day horizon, yesterday's value is hard to beat.
 
-**Limits.** One test period of 183 days that includes the 2020 COVID lockdown, which the model never saw. Kolkata and Mumbai trained on about 550 days each. Forecasts are for the historical Kaggle AQI only; the 2025-26 data uses a different AQI method after a five-year gap. Weather and festival features were not used.
+**Limits.** 
+- One test period of 183 days that includes the 2020 COVID lockdown, which the model never saw. 
+- Kolkata and Mumbai trained on about 550 days each. 
+- Forecasts are for the historical Kaggle AQI only; the 2025-26 data uses a different AQI method after a five-year gap. 
+- Weather and festival features were not used.
+
+## Hotspots: station clusters (Aug 2025 to Jul 2026)
+
+![Delhi station clusters](reports/screenshots/hotspot_delhi.png)
+
+**Setup.** One row per OpenAQ station: latitude, longitude and average daily CPCB AQI (stations with a PM reading on at least 300 days; 69 stations pass). The two Andhra Pradesh stations wrongly tagged as Patna were removed first. DBSCAN runs on location (10 km = 1 unit) and average AQI (25 points = 1 unit), with `min_samples = 3`. I tried `eps` = 0.5, 1.0 and 1.5:
+
+| eps | Clusters | Noise stations | Reading |
+|---|---|---|---|
+| 0.5 | 1 | 66 | Too strict |
+| 1.0 | 9 | 13 | Splits Delhi and Mumbai into groups (used for the maps) |
+| 1.5 | 6 | 4 | One cluster per city, no structure within a city |
+
+**Result (eps = 1.0).** Delhi splits into three groups of stations with mean AQI 232 (4 stations), 198 (3) and 180 (16). A hotspot is a cluster with mean AQI above 200, which is only the first. It sits in north and north-west Delhi. Mumbai splits into two groups (87 and 77); the other cities form one cluster each. Patna has one usable PM station, so it can't form a cluster.
+
+**Limits.**
+- The Kaggle data (2015-2020) has no station coordinates, so only the recent period can be mapped.
+- AQI is a clustering input, so the groups show where high values sit together, not why.
+- Results depend on the distance scales chosen (hence the three `eps` values).
+- Station AQI is the highest sub-index among the pollutants a station reports, so stations measuring different pollutants aren't strictly comparable.
+- Noise stations fit no cluster; they aren't necessarily clean.
+- Stations were picked by city name, so neighbouring towns (Noida, Ghaziabad, Thane) are excluded.
+
+Maps: `reports/hotspot_map_delhi.html` and `reports/hotspot_map_india.html` (open in a browser; tiles need internet).

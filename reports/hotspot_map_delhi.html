@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4254eef5f1b778f480a737dd061e7036 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    <div style='position:fixed;bottom:20px;left:20px;z-index:9999;background:white;padding:10px;border:1px solid #888;font-size:12px;max-width:330px;'><b>Delhi station clusters (eps = 1.0)</b><br><div><span style='background:#1f77b4;display:inline-block;width:12px;height:12px;border-radius:6px;margin-right:6px;'></span>Cluster 5: Delhi, 4 stations, mean AQI 232 (hotspot)</div><div><span style='background:#d62728;display:inline-block;width:12px;height:12px;border-radius:6px;margin-right:6px;'></span>Cluster 6: Delhi, 3 stations, mean AQI 198</div><div><span style='background:#2ca02c;display:inline-block;width:12px;height:12px;border-radius:6px;margin-right:6px;'></span>Cluster 0: Delhi, 16 stations, mean AQI 180</div><div><span style='background:#9E9E9E;display:inline-block;width:12px;height:12px;border-radius:6px;margin-right:6px;'></span>Noise: 3 stations</div><div style='margin-top:6px;color:#555;'>DBSCAN on location and average AQI, Aug 2025 to Jul 2026. Black outline = cluster mean above 200. Station AQI depends on which pollutants a station measures.</div></div>
+    
+            <div class="folium-map" id="map_4254eef5f1b778f480a737dd061e7036" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4254eef5f1b778f480a737dd061e7036 = L.map(
+                "map_4254eef5f1b778f480a737dd061e7036",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 1,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c29e5e095e17b4560ea0c09c4de3ecce = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Tiles: Esri, HERE, Garmin, OpenStreetMap contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c29e5e095e17b4560ea0c09c4de3ecce.addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+            var circle_marker_c71ee57325e9d5d606717ce61f4614b0 = L.circleMarker(
+                [28.563262, 77.186937],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_92935a442802b04d45fabe3f3da3dc6b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fc3295b8b0e92303f992338a5fa55a23 = $(`<div id="html_fc3295b8b0e92303f992338a5fa55a23" style="width: 100.0%; height: 100.0%;"><b>R K Puram, Delhi - DPCC</b><br>Delhi<br>Average AQI: 191<br>Days with AQI: 355<br>Pollutants: PM2.5<br>Cluster 0 (mean AQI 180)</div>`)[0];
+                popup_92935a442802b04d45fabe3f3da3dc6b.setContent(html_fc3295b8b0e92303f992338a5fa55a23);
+            
+        
+
+        circle_marker_c71ee57325e9d5d606717ce61f4614b0.bindPopup(popup_92935a442802b04d45fabe3f3da3dc6b)
+        ;
+
+        
+    
+    
+            circle_marker_c71ee57325e9d5d606717ce61f4614b0.bindTooltip(
+                `<div>
+                     R K Puram, Delhi - DPCC: 191
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_55747388099b106d21597355d8d1499b = L.circleMarker(
+                [28.474261, 77.131606],
+                {"bubblingMouseEvents": true, "color": "#9E9E9E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9E9E9E", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_43fe712820da06e26a353d79d7450486 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d013c4fb408ac782943d95ba8989d286 = $(`<div id="html_d013c4fb408ac782943d95ba8989d286" style="width: 100.0%; height: 100.0%;"><b>Aya Nagar, New Delhi - IMD</b><br>Delhi<br>Average AQI: 175<br>Days with AQI: 337<br>Pollutants: PM10,PM2.5<br>Noise (no cluster)</div>`)[0];
+                popup_43fe712820da06e26a353d79d7450486.setContent(html_d013c4fb408ac782943d95ba8989d286);
+            
+        
+
+        circle_marker_55747388099b106d21597355d8d1499b.bindPopup(popup_43fe712820da06e26a353d79d7450486)
+        ;
+
+        
+    
+    
+            circle_marker_55747388099b106d21597355d8d1499b.bindTooltip(
+                `<div>
+                     Aya Nagar, New Delhi - IMD: 175
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bc5001fda4e956d5742a0ae4e5e30c6b = L.circleMarker(
+                [28.5504249, 77.2159377],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_c4a22f431c7f8a0185e6546deab7ae84 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b3d7ab1c632dbd814860ee637092bbd5 = $(`<div id="html_b3d7ab1c632dbd814860ee637092bbd5" style="width: 100.0%; height: 100.0%;"><b>Sirifort, Delhi - CPCB</b><br>Delhi<br>Average AQI: 207<br>Days with AQI: 355<br>Pollutants: CO,NO2,O3,PM10,PM2.5,SO2<br>Cluster 0 (mean AQI 180)</div>`)[0];
+                popup_c4a22f431c7f8a0185e6546deab7ae84.setContent(html_b3d7ab1c632dbd814860ee637092bbd5);
+            
+        
+
+        circle_marker_bc5001fda4e956d5742a0ae4e5e30c6b.bindPopup(popup_c4a22f431c7f8a0185e6546deab7ae84)
+        ;
+
+        
+    
+    
+            circle_marker_bc5001fda4e956d5742a0ae4e5e30c6b.bindTooltip(
+                `<div>
+                     Sirifort, Delhi - CPCB: 207
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a70cb6a346c16b04e84a6e0ad118773d = L.circleMarker(
+                [28.6573814, 77.1585447],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_a078264c4f2a628c77276ee453b42da0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b64dc6a387c429d407c426e6517a8001 = $(`<div id="html_b64dc6a387c429d407c426e6517a8001" style="width: 100.0%; height: 100.0%;"><b>North Campus, DU, Delhi - IMD</b><br>Delhi<br>Average AQI: 167<br>Days with AQI: 354<br>Pollutants: PM2.5<br>Cluster 0 (mean AQI 180)</div>`)[0];
+                popup_a078264c4f2a628c77276ee453b42da0.setContent(html_b64dc6a387c429d407c426e6517a8001);
+            
+        
+
+        circle_marker_a70cb6a346c16b04e84a6e0ad118773d.bindPopup(popup_a078264c4f2a628c77276ee453b42da0)
+        ;
+
+        
+    
+    
+            circle_marker_a70cb6a346c16b04e84a6e0ad118773d.bindTooltip(
+                `<div>
+                     North Campus, DU, Delhi - IMD: 167
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dd801f1d27118c8e4a7c12b6b9dac6dc = L.circleMarker(
+                [28.628624, 77.24106],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_b53884373c8c67d8998404caf8dee75d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9691226dfa65f3fe0d3bde0f4a9f6c57 = $(`<div id="html_9691226dfa65f3fe0d3bde0f4a9f6c57" style="width: 100.0%; height: 100.0%;"><b>ITO, New Delhi - CPCB</b><br>Delhi<br>Average AQI: 142<br>Days with AQI: 355<br>Pollutants: O3,PM10<br>Cluster 0 (mean AQI 180)</div>`)[0];
+                popup_b53884373c8c67d8998404caf8dee75d.setContent(html_9691226dfa65f3fe0d3bde0f4a9f6c57);
+            
+        
+
+        circle_marker_dd801f1d27118c8e4a7c12b6b9dac6dc.bindPopup(popup_b53884373c8c67d8998404caf8dee75d)
+        ;
+
+        
+    
+    
+            circle_marker_dd801f1d27118c8e4a7c12b6b9dac6dc.bindTooltip(
+                `<div>
+                     ITO, New Delhi - CPCB: 142
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ed8b9c24f82e775666b32ad2a566183f = L.circleMarker(
+                [28.5512005, 77.2735737],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_4a2923b513a16bc904700bc85b20e6f3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4de5bf7e4b720112ea3e5a92e5da5ae5 = $(`<div id="html_4de5bf7e4b720112ea3e5a92e5da5ae5" style="width: 100.0%; height: 100.0%;"><b>CRRI Mathura Road, New Delhi - IMD</b><br>Delhi<br>Average AQI: 197<br>Days with AQI: 355<br>Pollutants: PM10,PM2.5<br>Cluster 0 (mean AQI 180)</div>`)[0];
+                popup_4a2923b513a16bc904700bc85b20e6f3.setContent(html_4de5bf7e4b720112ea3e5a92e5da5ae5);
+            
+        
+
+        circle_marker_ed8b9c24f82e775666b32ad2a566183f.bindPopup(popup_4a2923b513a16bc904700bc85b20e6f3)
+        ;
+
+        
+    
+    
+            circle_marker_ed8b9c24f82e775666b32ad2a566183f.bindTooltip(
+                `<div>
+                     CRRI Mathura Road, New Delhi - IMD: 197
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_23c40ae8d90c7d2655a8a07f799c4d84 = L.circleMarker(
+                [28.6514781, 77.1473105],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_df12ff4288bc5c7c72d1ac9e20f097e5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1d68b5348082ec376cf46010bba81fd2 = $(`<div id="html_1d68b5348082ec376cf46010bba81fd2" style="width: 100.0%; height: 100.0%;"><b>Shadipur, Delhi - CPCB</b><br>Delhi<br>Average AQI: 163<br>Days with AQI: 355<br>Pollutants: PM10<br>Cluster 0 (mean AQI 180)</div>`)[0];
+                popup_df12ff4288bc5c7c72d1ac9e20f097e5.setContent(html_1d68b5348082ec376cf46010bba81fd2);
+            
+        
+
+        circle_marker_23c40ae8d90c7d2655a8a07f799c4d84.bindPopup(popup_df12ff4288bc5c7c72d1ac9e20f097e5)
+        ;
+
+        
+    
+    
+            circle_marker_23c40ae8d90c7d2655a8a07f799c4d84.bindTooltip(
+                `<div>
+                     Shadipur, Delhi - CPCB: 163
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8f4077260776e4dbcf28a63c75c80b92 = L.circleMarker(
+                [28.636429, 77.201067],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_25c03ae3defa24a97fc39cd92af5e0c5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ece57e67bd56f6bbd9d54bca33aa127a = $(`<div id="html_ece57e67bd56f6bbd9d54bca33aa127a" style="width: 100.0%; height: 100.0%;"><b>Mandir Marg, New Delhi - DPCC</b><br>Delhi<br>Average AQI: 153<br>Days with AQI: 355<br>Pollutants: PM10<br>Cluster 0 (mean AQI 180)</div>`)[0];
+                popup_25c03ae3defa24a97fc39cd92af5e0c5.setContent(html_ece57e67bd56f6bbd9d54bca33aa127a);
+            
+        
+
+        circle_marker_8f4077260776e4dbcf28a63c75c80b92.bindPopup(popup_25c03ae3defa24a97fc39cd92af5e0c5)
+        ;
+
+        
+    
+    
+            circle_marker_8f4077260776e4dbcf28a63c75c80b92.bindTooltip(
+                `<div>
+                     Mandir Marg, New Delhi - DPCC: 153
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2bf1d52eba975466a0e13b80a3824930 = L.circleMarker(
+                [28.611281, 77.237738],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_f3973e451c237db274c47bf79c6c9836 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ba2e8c9b57c65a1c3ff71b488061ca73 = $(`<div id="html_ba2e8c9b57c65a1c3ff71b488061ca73" style="width: 100.0%; height: 100.0%;"><b>Major Dhyan Chand National Stadium, Delhi - DPCC</b><br>Delhi<br>Average AQI: 180<br>Days with AQI: 355<br>Pollutants: O3,PM10,PM2.5<br>Cluster 0 (mean AQI 180)</div>`)[0];
+                popup_f3973e451c237db274c47bf79c6c9836.setContent(html_ba2e8c9b57c65a1c3ff71b488061ca73);
+            
+        
+
+        circle_marker_2bf1d52eba975466a0e13b80a3824930.bindPopup(popup_f3973e451c237db274c47bf79c6c9836)
+        ;
+
+        
+    
+    
+            circle_marker_2bf1d52eba975466a0e13b80a3824930.bindTooltip(
+                `<div>
+                     Major Dhyan Chand National Stadium, Delhi - DPCC: 180
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d2136bffe76f67fdd8f873bfd90bda5c = L.circleMarker(
+                [28.5710274, 77.0719006],
+                {"bubblingMouseEvents": true, "color": "#9E9E9E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9E9E9E", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_3395c69821eb4a39f07969b05d741f77 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b40be6f23933770ac98612a39e21c0af = $(`<div id="html_b40be6f23933770ac98612a39e21c0af" style="width: 100.0%; height: 100.0%;"><b>Dwarka-Sector 8, Delhi - DPCC </b><br>Delhi<br>Average AQI: 229<br>Days with AQI: 355<br>Pollutants: O3,PM10,PM2.5<br>Noise (no cluster)</div>`)[0];
+                popup_3395c69821eb4a39f07969b05d741f77.setContent(html_b40be6f23933770ac98612a39e21c0af);
+            
+        
+
+        circle_marker_d2136bffe76f67fdd8f873bfd90bda5c.bindPopup(popup_3395c69821eb4a39f07969b05d741f77)
+        ;
+
+        
+    
+    
+            circle_marker_d2136bffe76f67fdd8f873bfd90bda5c.bindTooltip(
+                `<div>
+                     Dwarka-Sector 8, Delhi - DPCC : 229
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fc94c84a2563115ed8755b9d85485b91 = L.circleMarker(
+                [28.815329, 77.15301],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_3aa7c52f62b7fde14389e6d919252b10 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4a516dc3ee1b56e5d1c4c4af1be7080e = $(`<div id="html_4a516dc3ee1b56e5d1c4c4af1be7080e" style="width: 100.0%; height: 100.0%;"><b>Alipur, Delhi - DPCC</b><br>Delhi<br>Average AQI: 190<br>Days with AQI: 355<br>Pollutants: PM10<br>Cluster 6 (mean AQI 198)</div>`)[0];
+                popup_3aa7c52f62b7fde14389e6d919252b10.setContent(html_4a516dc3ee1b56e5d1c4c4af1be7080e);
+            
+        
+
+        circle_marker_fc94c84a2563115ed8755b9d85485b91.bindPopup(popup_3aa7c52f62b7fde14389e6d919252b10)
+        ;
+
+        
+    
+    
+            circle_marker_fc94c84a2563115ed8755b9d85485b91.bindTooltip(
+                `<div>
+                     Alipur, Delhi - DPCC: 190
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_84cd7ba23bb5bb75a6f0140bb3ca959f = L.circleMarker(
+                [28.672342, 77.31526],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_9bb557f578b3663f03324d1235196b2b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_22b46b95b82adb9ad59ef8456de6e68d = $(`<div id="html_22b46b95b82adb9ad59ef8456de6e68d" style="width: 100.0%; height: 100.0%;"><b>Vivek Vihar, Delhi - DPCC</b><br>Delhi<br>Average AQI: 191<br>Days with AQI: 354<br>Pollutants: O3,PM2.5<br>Cluster 0 (mean AQI 180)</div>`)[0];
+                popup_9bb557f578b3663f03324d1235196b2b.setContent(html_22b46b95b82adb9ad59ef8456de6e68d);
+            
+        
+
+        circle_marker_84cd7ba23bb5bb75a6f0140bb3ca959f.bindPopup(popup_9bb557f578b3663f03324d1235196b2b)
+        ;
+
+        
+    
+    
+            circle_marker_84cd7ba23bb5bb75a6f0140bb3ca959f.bindTooltip(
+                `<div>
+                     Vivek Vihar, Delhi - DPCC: 191
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d35a05101d767e67945ecd50c86c18ec = L.circleMarker(
+                [28.58028, 77.233829],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_46e753a85606333ee90dd8d38fc24dde = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_abc1723e583c22930b3e7199d105baf4 = $(`<div id="html_abc1723e583c22930b3e7199d105baf4" style="width: 100.0%; height: 100.0%;"><b>Jawaharlal Nehru Stadium, Delhi - DPCC</b><br>Delhi<br>Average AQI: 166<br>Days with AQI: 353<br>Pollutants: PM2.5<br>Cluster 0 (mean AQI 180)</div>`)[0];
+                popup_46e753a85606333ee90dd8d38fc24dde.setContent(html_abc1723e583c22930b3e7199d105baf4);
+            
+        
+
+        circle_marker_d35a05101d767e67945ecd50c86c18ec.bindPopup(popup_46e753a85606333ee90dd8d38fc24dde)
+        ;
+
+        
+    
+    
+            circle_marker_d35a05101d767e67945ecd50c86c18ec.bindTooltip(
+                `<div>
+                     Jawaharlal Nehru Stadium, Delhi - DPCC: 166
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e80df8678a3b7941fa38c9b45a9d3a23 = L.circleMarker(
+                [28.623748, 77.287205],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_bb7c828ffdfaad2cea8287fe5b1fa2b9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_297caabc40a219bad80ee65e135ff445 = $(`<div id="html_297caabc40a219bad80ee65e135ff445" style="width: 100.0%; height: 100.0%;"><b>Patparganj, Delhi - DPCC</b><br>Delhi<br>Average AQI: 184<br>Days with AQI: 355<br>Pollutants: CO,O3,PM10<br>Cluster 0 (mean AQI 180)</div>`)[0];
+                popup_bb7c828ffdfaad2cea8287fe5b1fa2b9.setContent(html_297caabc40a219bad80ee65e135ff445);
+            
+        
+
+        circle_marker_e80df8678a3b7941fa38c9b45a9d3a23.bindPopup(popup_bb7c828ffdfaad2cea8287fe5b1fa2b9)
+        ;
+
+        
+    
+    
+            circle_marker_e80df8678a3b7941fa38c9b45a9d3a23.bindTooltip(
+                `<div>
+                     Patparganj, Delhi - DPCC: 184
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_57959c258cbbe00232f7e97709df69b7 = L.circleMarker(
+                [28.63576, 77.22445],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_d19ef96a949bed6a1d1e383fdf14f0cd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_267ffa033cfb50728ceb641be54fdf86 = $(`<div id="html_267ffa033cfb50728ceb641be54fdf86" style="width: 100.0%; height: 100.0%;"><b>New Delhi</b><br>Delhi<br>Average AQI: 172<br>Days with AQI: 359<br>Pollutants: PM2.5<br>Cluster 0 (mean AQI 180)</div>`)[0];
+                popup_d19ef96a949bed6a1d1e383fdf14f0cd.setContent(html_267ffa033cfb50728ceb641be54fdf86);
+            
+        
+
+        circle_marker_57959c258cbbe00232f7e97709df69b7.bindPopup(popup_d19ef96a949bed6a1d1e383fdf14f0cd)
+        ;
+
+        
+    
+    
+            circle_marker_57959c258cbbe00232f7e97709df69b7.bindTooltip(
+                `<div>
+                     New Delhi: 172
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_21580504563f3f7cf17fba3cae13cc02 = L.circleMarker(
+                [28.73282, 77.170633],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_d35c7ef9fde0188e4a89112189f0f87a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_96f8b7b604d85d4b63889199d132da2d = $(`<div id="html_96f8b7b604d85d4b63889199d132da2d" style="width: 100.0%; height: 100.0%;"><b>Jahangirpuri, Delhi - DPCC</b><br>Delhi<br>Average AQI: 230<br>Days with AQI: 355<br>Pollutants: O3,PM2.5<br>Cluster 5 (mean AQI 232)</div>`)[0];
+                popup_d35c7ef9fde0188e4a89112189f0f87a.setContent(html_96f8b7b604d85d4b63889199d132da2d);
+            
+        
+
+        circle_marker_21580504563f3f7cf17fba3cae13cc02.bindPopup(popup_d35c7ef9fde0188e4a89112189f0f87a)
+        ;
+
+        
+    
+    
+            circle_marker_21580504563f3f7cf17fba3cae13cc02.bindTooltip(
+                `<div>
+                     Jahangirpuri, Delhi - DPCC: 230
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b5e9dc1f151b71d76bd1cd6335eb9dca = L.circleMarker(
+                [28.56789, 77.250515],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_f224ab274abc5774438a8cd32a0b66a7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d651783637b2901e6b4625d5ab4e31eb = $(`<div id="html_d651783637b2901e6b4625d5ab4e31eb" style="width: 100.0%; height: 100.0%;"><b>Nehru Nagar, Delhi - DPCC</b><br>Delhi<br>Average AQI: 217<br>Days with AQI: 355<br>Pollutants: PM10,PM2.5<br>Cluster 0 (mean AQI 180)</div>`)[0];
+                popup_f224ab274abc5774438a8cd32a0b66a7.setContent(html_d651783637b2901e6b4625d5ab4e31eb);
+            
+        
+
+        circle_marker_b5e9dc1f151b71d76bd1cd6335eb9dca.bindPopup(popup_f224ab274abc5774438a8cd32a0b66a7)
+        ;
+
+        
+    
+    
+            circle_marker_b5e9dc1f151b71d76bd1cd6335eb9dca.bindTooltip(
+                `<div>
+                     Nehru Nagar, Delhi - DPCC: 217
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5f36ec9bef2fb6d6ad7db1990d50725a = L.circleMarker(
+                [28.7762, 77.051074],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_b56b42206152ecf09d309f1eeb1a8ae8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e40ffe21a25e3b766584def926d81703 = $(`<div id="html_e40ffe21a25e3b766584def926d81703" style="width: 100.0%; height: 100.0%;"><b>Bawana, Delhi - DPCC</b><br>Delhi<br>Average AQI: 210<br>Days with AQI: 354<br>Pollutants: O3,PM2.5,SO2<br>Cluster 6 (mean AQI 198)</div>`)[0];
+                popup_b56b42206152ecf09d309f1eeb1a8ae8.setContent(html_e40ffe21a25e3b766584def926d81703);
+            
+        
+
+        circle_marker_5f36ec9bef2fb6d6ad7db1990d50725a.bindPopup(popup_b56b42206152ecf09d309f1eeb1a8ae8)
+        ;
+
+        
+    
+    
+            circle_marker_5f36ec9bef2fb6d6ad7db1990d50725a.bindTooltip(
+                `<div>
+                     Bawana, Delhi - DPCC: 210
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8ffeef7242106822930821a5702f9678 = L.circleMarker(
+                [28.710508, 77.249485],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_6d9545a21e2658c649a03d9ef4fbc40e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f2dea7f8a45b6e420c7106e648f13f74 = $(`<div id="html_f2dea7f8a45b6e420c7106e648f13f74" style="width: 100.0%; height: 100.0%;"><b>Sonia Vihar, Delhi - DPCC</b><br>Delhi<br>Average AQI: 186<br>Days with AQI: 354<br>Pollutants: PM2.5<br>Cluster 0 (mean AQI 180)</div>`)[0];
+                popup_6d9545a21e2658c649a03d9ef4fbc40e.setContent(html_f2dea7f8a45b6e420c7106e648f13f74);
+            
+        
+
+        circle_marker_8ffeef7242106822930821a5702f9678.bindPopup(popup_6d9545a21e2658c649a03d9ef4fbc40e)
+        ;
+
+        
+    
+    
+            circle_marker_8ffeef7242106822930821a5702f9678.bindTooltip(
+                `<div>
+                     Sonia Vihar, Delhi - DPCC: 186
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6d73afd24404471c331cadac81be2db0 = L.circleMarker(
+                [28.699793, 77.165453],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_c95b8f07bee0112bf1f1b96cbda4c51b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dc5507fa228a32c7d215c0a27a0d41c5 = $(`<div id="html_dc5507fa228a32c7d215c0a27a0d41c5" style="width: 100.0%; height: 100.0%;"><b>Wazirpur, Delhi - DPCC</b><br>Delhi<br>Average AQI: 245<br>Days with AQI: 355<br>Pollutants: PM10<br>Cluster 5 (mean AQI 232)</div>`)[0];
+                popup_c95b8f07bee0112bf1f1b96cbda4c51b.setContent(html_dc5507fa228a32c7d215c0a27a0d41c5);
+            
+        
+
+        circle_marker_6d73afd24404471c331cadac81be2db0.bindPopup(popup_c95b8f07bee0112bf1f1b96cbda4c51b)
+        ;
+
+        
+    
+    
+            circle_marker_6d73afd24404471c331cadac81be2db0.bindTooltip(
+                `<div>
+                     Wazirpur, Delhi - DPCC: 245
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6dc64f621c02eb2c9ef44153077ec625 = L.circleMarker(
+                [28.695381, 77.181665],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_d38a4369d8b1f52a88d1e9212b943a02 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_178527d53ecf57535877991d1707c36a = $(`<div id="html_178527d53ecf57535877991d1707c36a" style="width: 100.0%; height: 100.0%;"><b>Ashok Vihar, Delhi - DPCC</b><br>Delhi<br>Average AQI: 192<br>Days with AQI: 355<br>Pollutants: O3,PM10<br>Cluster 0 (mean AQI 180)</div>`)[0];
+                popup_d38a4369d8b1f52a88d1e9212b943a02.setContent(html_178527d53ecf57535877991d1707c36a);
+            
+        
+
+        circle_marker_6dc64f621c02eb2c9ef44153077ec625.bindPopup(popup_d38a4369d8b1f52a88d1e9212b943a02)
+        ;
+
+        
+    
+    
+            circle_marker_6dc64f621c02eb2c9ef44153077ec625.bindTooltip(
+                `<div>
+                     Ashok Vihar, Delhi - DPCC: 192
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_935008adacf8d03d838f666b7e79f572 = L.circleMarker(
+                [28.822836, 77.101981],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_227625af1bf030c5c1c1a209db8192eb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b410fb0e8a8cb126b523552eb229ea5c = $(`<div id="html_b410fb0e8a8cb126b523552eb229ea5c" style="width: 100.0%; height: 100.0%;"><b>Narela, Delhi - DPCC</b><br>Delhi<br>Average AQI: 193<br>Days with AQI: 355<br>Pollutants: PM2.5<br>Cluster 6 (mean AQI 198)</div>`)[0];
+                popup_227625af1bf030c5c1c1a209db8192eb.setContent(html_b410fb0e8a8cb126b523552eb229ea5c);
+            
+        
+
+        circle_marker_935008adacf8d03d838f666b7e79f572.bindPopup(popup_227625af1bf030c5c1c1a209db8192eb)
+        ;
+
+        
+    
+    
+            circle_marker_935008adacf8d03d838f666b7e79f572.bindTooltip(
+                `<div>
+                     Narela, Delhi - DPCC: 193
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1921bdadfddd8738a7dfa6618437c7aa = L.circleMarker(
+                [28.684678, 77.076574],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_ba89cb20fcb132699a17656eda65f0e8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6a34fdafcbdb359f069e878e155fbd00 = $(`<div id="html_6a34fdafcbdb359f069e878e155fbd00" style="width: 100.0%; height: 100.0%;"><b>Mundka, Delhi - DPCC</b><br>Delhi<br>Average AQI: 244<br>Days with AQI: 355<br>Pollutants: PM10,PM2.5<br>Cluster 5 (mean AQI 232)</div>`)[0];
+                popup_ba89cb20fcb132699a17656eda65f0e8.setContent(html_6a34fdafcbdb359f069e878e155fbd00);
+            
+        
+
+        circle_marker_1921bdadfddd8738a7dfa6618437c7aa.bindPopup(popup_ba89cb20fcb132699a17656eda65f0e8)
+        ;
+
+        
+    
+    
+            circle_marker_1921bdadfddd8738a7dfa6618437c7aa.bindTooltip(
+                `<div>
+                     Mundka, Delhi - DPCC: 244
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_beb3dd4f78b08d9569e4934864c0d81a = L.circleMarker(
+                [28.570173, 76.933762],
+                {"bubblingMouseEvents": true, "color": "#9E9E9E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9E9E9E", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_1f37c31eade8ac661486d96aca6d2755 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e97040450977a8c092c0a6eee3e71b80 = $(`<div id="html_e97040450977a8c092c0a6eee3e71b80" style="width: 100.0%; height: 100.0%;"><b>Najafgarh, Delhi - DPCC</b><br>Delhi<br>Average AQI: 127<br>Days with AQI: 355<br>Pollutants: PM10<br>Noise (no cluster)</div>`)[0];
+                popup_1f37c31eade8ac661486d96aca6d2755.setContent(html_e97040450977a8c092c0a6eee3e71b80);
+            
+        
+
+        circle_marker_beb3dd4f78b08d9569e4934864c0d81a.bindPopup(popup_1f37c31eade8ac661486d96aca6d2755)
+        ;
+
+        
+    
+    
+            circle_marker_beb3dd4f78b08d9569e4934864c0d81a.bindTooltip(
+                `<div>
+                     Najafgarh, Delhi - DPCC: 127
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7b382ce9767433d7fe39e10812dd6272 = L.circleMarker(
+                [28.732528, 77.11992],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_5e2e6d58b3e9c2560bebb128979e1a65 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f77edd66c12a301a3e86c036d0257f1c = $(`<div id="html_f77edd66c12a301a3e86c036d0257f1c" style="width: 100.0%; height: 100.0%;"><b>Rohini, Delhi - DPCC</b><br>Delhi<br>Average AQI: 210<br>Days with AQI: 355<br>Pollutants: PM10<br>Cluster 5 (mean AQI 232)</div>`)[0];
+                popup_5e2e6d58b3e9c2560bebb128979e1a65.setContent(html_f77edd66c12a301a3e86c036d0257f1c);
+            
+        
+
+        circle_marker_7b382ce9767433d7fe39e10812dd6272.bindPopup(popup_5e2e6d58b3e9c2560bebb128979e1a65)
+        ;
+
+        
+    
+    
+            circle_marker_7b382ce9767433d7fe39e10812dd6272.bindTooltip(
+                `<div>
+                     Rohini, Delhi - DPCC: 210
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5835c26461b527db70c9c717c3b44f43 = L.circleMarker(
+                [28.656756, 77.227234],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 1}
+            ).addTo(map_4254eef5f1b778f480a737dd061e7036);
+        
+    
+        var popup_c5623b5d785c73c9cb6613297638cd02 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_11d08b41134b300ad536caf5c51980aa = $(`<div id="html_11d08b41134b300ad536caf5c51980aa" style="width: 100.0%; height: 100.0%;"><b>Chandni Chowk, Delhi - IITM</b><br>Delhi<br>Average AQI: 175<br>Days with AQI: 349<br>Pollutants: O3,PM2.5<br>Cluster 0 (mean AQI 180)</div>`)[0];
+                popup_c5623b5d785c73c9cb6613297638cd02.setContent(html_11d08b41134b300ad536caf5c51980aa);
+            
+        
+
+        circle_marker_5835c26461b527db70c9c717c3b44f43.bindPopup(popup_c5623b5d785c73c9cb6613297638cd02)
+        ;
+
+        
+    
+    
+            circle_marker_5835c26461b527db70c9c717c3b44f43.bindTooltip(
+                `<div>
+                     Chandni Chowk, Delhi - IITM: 175
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            map_4254eef5f1b778f480a737dd061e7036.fitBounds(
+                [[28.474261, 76.933762], [28.822836, 77.31526]],
+                {}
+            );
+        
+</script>
+</html>
